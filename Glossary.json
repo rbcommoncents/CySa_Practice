@@ -1,0 +1,1764 @@
+{
+    "1": {
+        "term": "802.1X",
+        "definition": "A standard for encapsulating EAP communications over a LAN or wireless LAN and that provides port-based authentication. Also known as EAP (Extensible Authentication Protocol).",
+        "questions": {
+            "1":{
+                "quetion":,
+                "answer":
+            }
+        }
+    },
+    "2": {
+        "term": "ABAC",
+        "definition": "(attribute-based access control) An access control technique that evaluates a set of attributes that each subject possesses to determine if access should be granted."
+    },
+    "3": {
+        "term": "abnormal OS process behavior",
+        "definition": "Indicators that a legitimate OS process has been corrupted with malicious code for the purpose of damaging or compromising the system."
+    },
+    "4": {
+        "term": "accuracy",
+        "definition": "Property of an intelligence source that ensures it produces effective results."
+    },
+    "5": {
+        "term": "active defense",
+        "definition": "The practice of responding to a threat by destroying or deceiving a threat actor\u2019s capabilities."
+    },
+    "6": {
+        "term": "active scan",
+        "definition": "An enumeration or vulnerability scan that analyzes the responses from probes sent to a target."
+    },
+    "7": {
+        "term": "admission control",
+        "definition": "The point at which client devices are granted or denied access based on their compliance with a health policy."
+    },
+    "8": {
+        "term": "adversary capability",
+        "definition": "A formal classification of the resources and expertise available to a threat actor."
+    },
+    "9": {
+        "term": "Agile model",
+        "definition": "A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations."
+    },
+    "10": {
+        "term": "AI",
+        "definition": "(artificial intelligence) The science of creating machines with the ability to develop problem solving and analysis strategies without significant human direction or intervention."
+    },
+    "11": {
+        "term": "air gap",
+        "definition": "A type of network isolation that physically separates a network from all other networks."
+    },
+    "12": {
+        "term": "Aircrack-ng",
+        "definition": "Suite of utilities designed for wireless network security testing."
+    },
+    "13": {
+        "term": "ALE",
+        "definition": "(annual loss expectancy) The total cost of a risk to an organization on an annual basis. This is determined by multiplying the SLE by the annual rate of occurrence (ARO)."
+    },
+    "14": {
+        "term": "amplification attack",
+        "definition": "A network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor. Also known as DRDoS (Distributed Reflection Denial of Service)."
+    },
+    "15": {
+        "term": "ANN",
+        "definition": "(artificial neural network) In AI, an architecture of input, hidden, and output layers that can perform algorithmic analysis of a dataset to achieve outcome objectives. Also known as neural network."
+    },
+    "16": {
+        "term": "anomaly analysis",
+        "definition": "A network monitoring system that uses a baseline of acceptable outcomes or event patterns to identify events that fall outside the acceptable range. Also known as anomaly-based detection."
+    },
+    "17": {
+        "term": "anti-tamper",
+        "definition": "Methods that make it difficult for an attacker to alter the authorized execution of software."
+    },
+    "18": {
+        "term": "anti-virus scanner",
+        "definition": "Software capable of detecting and removing virus infections and (in most cases) other types of malware, such as worms, Trojans, rootkits, adware, spyware, password crackers, network mappers, DoS tools, and so on."
+    },
+    "19": {
+        "term": "API",
+        "definition": "(application programming interface) A library of programming utilities used, for example, to enable software developers to access functions of the TCP/IP network stack under a particular operating system."
+    },
+    "20": {
+        "term": "ATT&CK",
+        "definition": "(Adversarial Tactics, Techniques, and Common Knowledge) A knowledge base maintained by the MITRE Corporation for listing and explaining specific adversary tactics, techniques, and procedures."
+    },
+    "21": {
+        "term": "APT",
+        "definition": "(advanced persistent threat) An attacker\u2019s ability to obtain, maintain, and diversify access to network systems using exploits and malware. attack surface The points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor."
+    },
+    "22": {
+        "term": "Arachni",
+        "definition": "An open-source web application scanner."
+    },
+    "23": {
+        "term": "attack vector",
+        "definition": "A specific path by which a threat actor gains unauthorized access to a system."
+    },
+    "24": {
+        "term": "arbitrary code execution",
+        "definition": "A vulnerability that allows an attacker to run their own code or a module that exploits such a vulnerability."
+    },
+    "25": {
+        "term": "ARO",
+        "definition": "(annual rate of occurrence) In risk calculation, an expression of the probability/likelihood of a risk as the number of times per year a particular loss is expected to occur."
+    },
+    "26": {
+        "term": "ARP poisoning",
+        "definition": "A network-based attack where an attacker with access to the target local network segment redirects an IP address to the MAC address of a computer that is not the intended recipient. This can be used to perform a variety of attacks, including DoS, spoofing, and Man-in-the-Middle. Also known as ARP spoofing."
+    },
+    "27": {
+        "term": "ASLR",
+        "definition": "(address space layout randomization) A technique that randomizes where components in a running application are placed in memory to protect against buffer overflows."
+    },
+    "28": {
+        "term": "assembly code",
+        "definition": "A compiled software program is converted to binary machine code using the instruction set of the CPU platform. Assembly language is this machine code represented in human-readable text."
+    },
+    "29": {
+        "term": "asset tagging",
+        "definition": "The practice of assigning an ID to assets to associate them with entries in an inventory database."
+    },
+    "30": {
+        "term": "AUP",
+        "definition": "(acceptable use policy) A policy that governs employees\u2019 use of company equipment and  internet services. ISPs may also apply AUPs to their customers. Also known as a fair use policy."
+    },
+    "31": {
+        "term": "Autopsy",
+        "definition": "The Sleuth Kit is an open source collection of command line and programming libraries for disk imaging and file analysis. Autopsy is a graphical frontend for these tools and also provides a case management/workflow tool."
+    },
+    "32": {
+        "term": "AutoRuns",
+        "definition": "Tool in the Microsoft Sysinternals suite to identify processes run at startup."
+    },
+    "33": {
+        "term": "awk",
+        "definition": "A scripting engine optimized for string search and filtering."
+    },
+    "34": {
+        "term": "BAS",
+        "definition": "(building automation system) Components and protocols that facilitate the centralized configuration and monitoring of mechanical and electrical systems within offices and data centers."
+    },
+    "35": {
+        "term": "bash",
+        "definition": "A command shell and scripting language for Unix-like systems."
+    },
+    "36": {
+        "term": "beaconing",
+        "definition": "A means for a network node to advertise its presence and establish a link with other nodes, such as the beacon management frame sent by an AP. Legitimate software and appliances do this but it is also associated with Remote Access Trojans (RAT) communicating with a Command & Control server."
+    },
+    "37": {
+        "term": "behavioral analysis",
+        "definition": "A network monitoring system that detects changes in normal operating data sequences and identifies abnormal sequences. Also known as behavior-based detection."
+    },
+    "38": {
+        "term": "BEC",
+        "definition": "(business email compromise) An impersonation attack in which the attacker gains control of an employee\u2019s account and uses it to convince other employees to perform fraudulent actions."
+    },
+    "39": {
+        "term": "BIA",
+        "definition": "(business impact analysis) A systematic activity that identifies organizational risks and determines their effect on ongoing, mission critical operations."
+    },
+    "40": {
+        "term": "C&C",
+        "definition": "(command and control) An infrastructure of hosts and services with which attackers direct, distribute, and control malware over botnets. Also known as C2."
+    },
+    "41": {
+        "term": "big data",
+        "definition": "Large stores of unstructured and semi-structured information. As well as volume, big data is often described as having velocity, as it may involve the capture and analysis of high bandwidth network links. call list A document listing authorized contacts for notification and collaboration during a security incident."
+    },
+    "42": {
+        "term": "black hole",
+        "definition": "A means of mitigating DoS or intrusion attacks by silently dropping (discarding) traffic."
+    },
+    "43": {
+        "term": "blacklisting",
+        "definition": "A security configuration where access is generally permitted to any entity (software process, IP/domain, and so on) unless the entity appears on a blacklist."
+    },
+    "44": {
+        "term": "blue team",
+        "definition": "The defensive team in a penetration test or incident response exercise."
+    },
+    "45": {
+        "term": "Bro",
+        "definition": "An open-source intrusion detection system for UNIX/Linux platforms, now called Zeek."
+    },
+    "46": {
+        "term": "broken authentication",
+        "definition": "A software vulnerability where the authentication mechanism allows an attacker to gain entry, such as displaying cleartext credentials, using weak session tokens, or permitting brute force login requests."
+    },
+    "47": {
+        "term": "buffer overflow",
+        "definition": "An attack in which data goes past the boundary of the destination buffer and begins to corrupt adjacent memory. This can allow the attacker to crash the system or execute arbitrary code."
+    },
+    "48": {
+        "term": "Burp Suite",
+        "definition": "A proprietary interception proxy and web application assessment tool."
+    },
+    "49": {
+        "term": "CAN bus",
+        "definition": "(controller area network bus) A digital serial data communications network used within vehicles."
+    },
+    "50": {
+        "term": "canonicalization attack",
+        "definition": "Attack method where input characters are encoded in such a way as to evade vulnerable input validation measures."
+    },
+    "51": {
+        "term": "CAPEC",
+        "definition": "(Common Attack Pattern Enumeration and Classification) A knowledge base maintained by MITRE that classifies specific attack patterns."
+    },
+    "52": {
+        "term": "captive portal",
+        "definition": "A web page or website to which a client is redirected before being granted full network access."
+    },
+    "53": {
+        "term": "CAR",
+        "definition": "(corrective action report) A formal response setting out the plan to correct a defect in a system, such as a security vulnerability. This type of report or request may be implemented as part of a wider Failure Reporting, Analysis and Corrective Action System (FRACAS)."
+    },
+    "54": {
+        "term": "carving",
+        "definition": "The process of extracting data from a computer when that data has no associated file system metadata."
+    },
+    "55": {
+        "term": "CASB",
+        "definition": "(cloud access security broker) Enterprise management software designed to mediate access to cloud services by users across all types of devices."
+    },
+    "56": {
+        "term": "CCE",
+        "definition": "(common configuration enumeration) Scheme for provisioning secure configuration checks across multiple sources developed by MITRE and adopted by NIST."
+    },
+    "57": {
+        "term": "CE",
+        "definition": "(cryptographic erase) A method of sanitizing a self-encrypting drive by erasing the media encryption key."
+    },
+    "58": {
+        "term": "certificate management",
+        "definition": "The practice of issuing, updating, and revoking digital certificates."
+    },
+    "59": {
+        "term": "chain of custody",
+        "definition": "The record of evidence history from collection, to presentation in court, to disposal."
+    },
+    "60": {
+        "term": "change management",
+        "definition": "The process through which changes to the configuration of information systems are monitored and controlled, as part of the organization\u2019s overall configuration management efforts."
+    },
+    "61": {
+        "term": "CIS",
+        "definition": "(Center for Internet Security) A not-for-profit organization (founded partly by SANS). It publishes the well-known \"Top 20 Critical Security Controls\" (or system design recommendations)."
+    },
+    "62": {
+        "term": "CISO",
+        "definition": "(Chief Information Security Officer) Typically the job title of the person with overall responsibility for information assurance and systems security. Sometimes referred to as Chief Information Officer (CIO)."
+    },
+    "63": {
+        "term": "clickjacking",
+        "definition": "A type of hijacking attack that forces a user to unintentionally click a link that is embedded in or hidden by other web page elements."
+    },
+    "64": {
+        "term": "cloud deployment model",
+        "definition": "Classifying the ownership and management of a cloud as public, private, community, or hybrid."
+    },
+    "65": {
+        "term": "cloud service model",
+        "definition": "Classifying the provision of cloud services and the limit of the cloud service provider\u2019s responsibility as software, platform, infrastructure, and so on."
+    },
+    "66": {
+        "term": "COBIT",
+        "definition": "(Control Objectives for Information and Related Technologies) An IT governance framework with security as a core component. COBIT is published by ISACA and is a commercial product, available through APMG International."
+    },
+    "67": {
+        "term": "code injection",
+        "definition": "Exploit technique that runs malicious code with the ID of a legitimate process."
+    },
+    "68": {
+        "term": "code of conduct",
+        "definition": "Professional behavior depends on basic ethical standards, such as honesty and fairness. Some professions may have developed codes of ethics to cover difficult situations; some businesses may also have a code of ethics to communicate the values it expects its employees to practice."
+    },
+    "69": {
+        "term": "code review",
+        "definition": "The process of peer review of uncompiled source code by other developers."
+    },
+    "70": {
+        "term": "commodity malware",
+        "definition": "Malicious software applications that are widely available for sale or easily obtainable and usable."
+    },
+    "71": {
+        "term": "common protocol over",
+        "definition": "non-standard port Communicating TCP/IP application traffic, such as HTTP, FTP, or DNS, over a port that is not the well-known or registered port established for that protocol."
+    },
+    "72": {
+        "term": "community cloud",
+        "definition": "A cloud that is deployed for shared use by cooperating tenants."
+    },
+    "73": {
+        "term": "compensating control",
+        "definition": "A security measure that takes on risk mitigation when a primary control fails or cannot completely meet expectations."
+    },
+    "74": {
+        "term": "confidence level",
+        "definition": "Property of an intelligence source that ensures it produces qualified statements about reliability."
+    },
+    "75": {
+        "term": "configuration baseline",
+        "definition": "Settings for services and policy configuration for a server operating in a particular application role (web server, mail server, file/print server, and so on). | G-5"
+    },
+    "76": {
+        "term": "containerization",
+        "definition": "A type of virtualization applied by a host operating system to provision an isolated execution environment for an application."
+    },
+    "77": {
+        "term": "continuous delivery",
+        "definition": "Software development method in which app and platform requirements are frequently tested and validated for immediate availability."
+    },
+    "78": {
+        "term": "continuous deployment",
+        "definition": "Software development method in which app and platform updates are committed to production rapidly."
+    },
+    "79": {
+        "term": "continuous integration",
+        "definition": "Software development method in which code updates are tested and committed to a development or build server/code repository rapidly."
+    },
+    "80": {
+        "term": "continuous monitoring",
+        "definition": "The technique of constantly evaluating an environment for changes so that new risks may be more quickly detected and business operations improved upon. Sometimes referred to as continuous security monitoring (CSM)."
+    },
+    "81": {
+        "term": "cookie",
+        "definition": "Text file used to store information about a user when they visit a website. Some sites use cookies to support user sessions."
+    },
+    "82": {
+        "term": "corporate information",
+        "definition": "Confidential data owned by a company, such as product, sales/marketing, and legal/contract information."
+    },
+    "83": {
+        "term": "corrective control",
+        "definition": "A type of security control that acts after an incident to eliminate or minimize its impact."
+    },
+    "84": {
+        "term": "covert channel",
+        "definition": "A type of attack that subverts network security systems and policies to transfer data without authorization or detection."
+    },
+    "85": {
+        "term": "CPE",
+        "definition": "(common platform enumeration) Scheme for identifying hardware devices, operating systems, and applications developed by MITRE."
+    },
+    "86": {
+        "term": "credential stuffing",
+        "definition": "Brute force attack in which stolen user account names and passwords are tested against multiple websites."
+    },
+    "87": {
+        "term": "CSIRT",
+        "definition": "(computer security incident response team) Team with responsibility for incident response. The CSIRT must have expertise across a number of business domains (IT, HR, legal, and marketing for instance). Also known as CERT (computer emergency response team)."
+    },
+    "88": {
+        "term": "CTI",
+        "definition": "(cyber threat intelligence) The process of investigating, collecting, analyzing, and disseminating information about emerging threats and threat sources."
+    },
+    "89": {
+        "term": "CVE",
+        "definition": "(Common Vulnerabilities and Exposures) Scheme for identifying vulnerabilities developed by MITRE and adopted by NIST."
+    },
+    "90": {
+        "term": "CVSS",
+        "definition": "(Common Vulnerability Scoring System) A risk management approach to quantifying vulnerability data and then taking into account the degree of risk to different types of systems or information."
+    },
+    "91": {
+        "term": "CWE",
+        "definition": "(Common Weakness Enumeration) A dictionary of software-related vulnerabilities maintained by the MITRE Corporation."
+    },
+    "92": {
+        "term": "DAC",
+        "definition": "(discretionary access control) Access control model where each resource is protected by an Access Control List (ACL) managed by the resource\u2019s owner (or owners)."
+    },
+    "93": {
+        "term": "dark web",
+        "definition": "Resources on the Internet that are distributed between anonymized nodes and protected from general access by multiple layers of encryption and routing."
+    },
+    "94": {
+        "term": "dashboard",
+        "definition": "A console presenting selected information in an easily digestible format, such as a visualization."
+    },
+    "95": {
+        "term": "data acquisition",
+        "definition": "In digital forensics, the method and tools used to create a forensically sound copy of data from a source device, such as system memory or a hard disk."
+    },
+    "96": {
+        "term": "data classification",
+        "definition": "The process of applying confidentiality and privacy labels to information."
+    },
+    "97": {
+        "term": "data exfiltration",
+        "definition": "The process by which an attacker takes data that is stored inside of a private network and moves it to an external network."
+    },
+    "98": {
+        "term": "deidentification",
+        "definition": "In data protection, methods and technologies that remove identifying information from data before it is distributed."
+    },
+    "99": {
+        "term": "data historian",
+        "definition": "Software that aggregates and catalogs data from multiple sources within an industrial control system."
+    },
+    "100": {
+        "term": "dereferencing",
+        "definition": "A software vulnerability that can occur when the code attempts to remove the relationship between a pointer and the thing it points to (pointee). If the pointee is not properly established, the dereferencing process may crash the application and corrupt memory."
+    },
+    "101": {
+        "term": "data masking",
+        "definition": "A deidentification method where generic or placeholder labels are substituted for real data while preserving the structure or format of the original data."
+    },
+    "102": {
+        "term": "data minimization",
+        "definition": "In data protection, the principle that only necessary and sufficient personal information can be collected and processed for the stated purpose."
+    },
+    "103": {
+        "term": "data ownership",
+        "definition": "The process of identifying the person responsible for the confidentiality, integrity, availability, and privacy of information assets."
+    },
+    "104": {
+        "term": "data retention",
+        "definition": "The process an organization uses to maintain the existence of and control over certain data in order to comply with business policies and/or applicable laws and regulations."
+    },
+    "105": {
+        "term": "data sanitization and disposal policy",
+        "definition": "A group of procedures that an organization uses to govern the disposal of obsolete information and equipment, including storage devices, devices with internal data storage capabilities, and paper records."
+    },
+    "106": {
+        "term": "DDoS attack",
+        "definition": "(distributed denial of service) An attack that uses multiple compromised hosts (a botnet) to overwhelm a service with request or response traffic."
+    },
+    "107": {
+        "term": "debugger",
+        "definition": "A dynamic testing tool used to analyze software as it executes."
+    },
+    "108": {
+        "term": "decompiler",
+        "definition": "A reverse engineering tool that converts machine code or assembly language code to code in a specific higher-level language or pseudocode."
+    },
+    "109": {
+        "term": "detective control",
+        "definition": "A type of security control that acts during an incident to identify or record that it is happening."
+    },
+    "110": {
+        "term": "deterrent control",
+        "definition": "A type of security control that discourages intrusion attempts."
+    },
+    "111": {
+        "term": "DevOps",
+        "definition": "A combination of software development and systems operations, and refers to the practice of integrating one discipline with the other."
+    },
+    "112": {
+        "term": "DevSecOps",
+        "definition": "A combination of software development, security operations, and systems operations, and refers to the practice of integrating each discipline with the others."
+    },
+    "113": {
+        "term": "DGA",
+        "definition": "(domain generation algorithm) Method used by malware to evade blacklists by generating domain names for C&C networks dynamically."
+    },
+    "114": {
+        "term": "Diamond Model",
+        "definition": "A framework for analyzing cybersecurity incidents."
+    },
+    "115": {
+        "term": "directory traversal",
+        "definition": "An application attack that allows access to commands, files, and directories that may or may not be connected to the web document root directory."
+    },
+    "116": {
+        "term": "disassembler",
+        "definition": "Reverse engineering software that converts machine language code into assembly language code."
+    },
+    "117": {
+        "term": "dissemination",
+        "definition": "In the security intelligence cycle, a phase in which information is published and presented to different audiences. Dropper Malware designed to install or run other types of malware embedded in a payload on an infected host."
+    },
+    "118": {
+        "term": "dkim",
+        "definition": "(DomainKeys Identified Mail) Cryptographic authentication mechanism for mail utilizing a public key published as a DNS record. due diligence A legal principal that a subject has used best practice or reasonable care when setting up, configuring, and maintaining a system."
+    },
+    "119": {
+        "term": "DL",
+        "definition": "(deep learning) A refinement of machine learning that enables a machine to develop strategies for solving a task given a labeled dataset and without further explicit instructions."
+    },
+    "120": {
+        "term": "EAP",
+        "definition": "(Extensible Authentication Protocol) Framework for negotiating authentication methods that enables systems to use hardware-based identifiers, such as fingerprint scanners or smart card readers, for authentication."
+    },
+    "121": {
+        "term": "DLP",
+        "definition": "(data loss/leak prevention) A software solution that detects and prevents sensitive information from being stored on unauthorized systems or transmitted over unauthorized networks."
+    },
+    "122": {
+        "term": "dmarc",
+        "definition": "(Domain-Based Message Authentication, Reporting, and Conformance) Framework for ensuring proper application of SPF and DMARC utilizing a policy published as a DNS record."
+    },
+    "123": {
+        "term": "DMZ",
+        "definition": "(demilitarized zone) A segment isolated from the rest of a private network by one or more firewalls that accepts connections from the Internet over designated ports."
+    },
+    "124": {
+        "term": "DNS harvesting",
+        "definition": "Using Open Source Intelligence (OSINT) to gather information about a domain (subdomains, hosting provider, administrative contacts, and so on)."
+    },
+    "125": {
+        "term": "downloader",
+        "definition": "Malware designed to download and run other types of malware to an infected host."
+    },
+    "126": {
+        "term": "DRM",
+        "definition": "(digital rights management) Copyright protection technologies for digital media. DRM solutions usually try to restrict the number of devices allowed for playback of a licensed digital file, such as a music track or eBook."
+    },
+    "127": {
+        "term": "EAPoL",
+        "definition": "(Extensible Authentication Protocol over LAN) A port-based network access control (PNAC) mechanism that allows the use of EAP authentication when a host connects to an Ethernet switch."
+    },
+    "128": {
+        "term": "EDR",
+        "definition": "(endpoint detection and response) A software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats."
+    },
+    "129": {
+        "term": "EF",
+        "definition": "(exposure factor) In risk calculation, the percentage of an asset\u2019s value that would be lost during a security incident or disaster scenario."
+    },
+    "130": {
+        "term": "eFUSE",
+        "definition": "A means for software or firmware to permanently alter the state of a transistor on a computer chip."
+    },
+    "131": {
+        "term": "email harvesting",
+        "definition": "Using Open Source Intelligence (OSINT) to gather email addresses for a domain."
+    },
+    "132": {
+        "term": "embedded system",
+        "definition": "A computer system that is designed to perform a specific, dedicated function, such as a microcontroller in a medical drip or components in a control system managing a water treatment plant."
+    },
+    "133": {
+        "term": "EnCase Forensic",
+        "definition": "Digital forensics case management product created by Guidance Software."
+    },
+    "134": {
+        "term": "engineering tradeoff",
+        "definition": "In risk prioritization, an assessment of the benefit of risk reduction against the increased complexity or cost in a system design or specification."
+    },
+    "135": {
+        "term": "enumeration",
+        "definition": "When an attacker tries to get a list of resources on the network, host, or system as a whole to identify potential targets for further attack. Also called fingerprinting or footprinting."
+    },
+    "136": {
+        "term": "EPP",
+        "definition": "(endpoint protection platform) A software agent and monitoring system that performs multiple security tasks."
+    },
+    "137": {
+        "term": "ERM",
+        "definition": "(enterprise risk management) The comprehensive process of evaluating, measuring, and mitigating the many risks that pervade an organization."
+    },
+    "138": {
+        "term": "error handling",
+        "definition": "Coding methods to anticipate and deal with exceptions thrown during execution of a process."
+    },
+    "139": {
+        "term": "ESA",
+        "definition": "(enterprise security architecture) A framework for defining the baseline, goals, and methods used to secure a business."
+    },
+    "140": {
+        "term": "ESB",
+        "definition": "(enterprise service bus) A common component of SOA architecture that facilitates decoupled service-to-service communication."
+    },
+    "141": {
+        "term": "execution control",
+        "definition": "The process of determining what additional software may be installed on a client or server beyond its baseline to prevent the use of unauthorized software."
+    },
+    "142": {
+        "term": "exploit technique",
+        "definition": "The specific method by which malware code infects a target host."
+    },
+    "143": {
+        "term": "FaaS",
+        "definition": "(Function as a Service) A cloud service model that supports serverless software architecture by provisioning runtime containers in which to execute code in a particular programming language."
+    },
+    "144": {
+        "term": "false negative",
+        "definition": "In security scanning, a case that is not reported when it should be."
+    },
+    "145": {
+        "term": "false positive",
+        "definition": "In security scanning, a case that is reported when it should not be."
+    },
+    "146": {
+        "term": "fast flux",
+        "definition": "Method used by malware to hide the presence of C&C networks by continually changing the host IP addresses in domain records."
+    },
+    "147": {
+        "term": "federation",
+        "definition": "A process that provides a shared login capability across multiple systems and enterprises. It essentially connects the identity management services of multiple systems."
+    },
+    "148": {
+        "term": "feedback",
+        "definition": "In the security intelligence cycle, a phase that aims to clarify requirements and improve the collection, analysis, and dissemination of information by reviewing current inputs and outputs."
+    },
+    "149": {
+        "term": "fieldbus",
+        "definition": "Digital serial data communications used in operational technology networks."
+    },
+    "150": {
+        "term": "file inclusion",
+        "definition": "A web application vulnerability that allows an attacker either to download a file from an arbitrary location on the host file system or to upload an executable or script file to open a backdoor."
+    },
+    "151": {
+        "term": "FIM",
+        "definition": "(file integrity monitoring) A type of software that reviews system files to ensure that they have not been tampered with."
+    },
+    "152": {
+        "term": "financial information",
+        "definition": "Data held about bank and investment accounts, plus information such as payroll and tax returns."
+    },
+    "153": {
+        "term": "fingerprinting",
+        "definition": "Identifying the type and version of an operating system (or server application) by analyzing its responses to network scans."
+    },
+    "154": {
+        "term": "firewalking",
+        "definition": "Reconnaissance technique to enumerate firewall configuration and attempt to probe hosts behind it."
+    },
+    "155": {
+        "term": "flow analysis",
+        "definition": "Analysis of network traffic statistics sampled by a collector."
+    },
+    "156": {
+        "term": "Hacktivist",
+        "definition": "An attacker that is motivated by a social issue or political cause."
+    },
+    "157": {
+        "term": "footprinting",
+        "definition": "The phase in an attack or penetration test in which the attacker or tester gathers information about the target before attacking it."
+    },
+    "158": {
+        "term": "hardening",
+        "definition": "The process of making a host or app configuration secure by enabling and allowing access to only necessary services, installing monitoring software to protect against malware and intrusions, and establishing a maintenance schedule to ensure the system is patched to be secure against software exploits."
+    },
+    "159": {
+        "term": "forensics",
+        "definition": "The process of gathering and submitting computer evidence to trial. Digital evidence is latent, meaning that it must be interpreted. This means that great care must be taken to prove that the evidence has not been tampered with or falsified. Also known as collection of evidence."
+    },
+    "160": {
+        "term": "formal method",
+        "definition": "The process of validating software design through mathematical modeling of expected inputs  and outputs."
+    },
+    "161": {
+        "term": "FPGA",
+        "definition": "(field programmable gate array) A processor that can be programmed to perform a specific function by a customer rather than at the time of manufacture."
+    },
+    "162": {
+        "term": "FTK",
+        "definition": "(Forensic Toolkit) A commercial digital forensics investigation management and utilities suite, published by AccessData."
+    },
+    "163": {
+        "term": "fuzzing",
+        "definition": "A dynamic code analysis technique that involves sending a running application random and unusual input so as to evaluate how the app responds."
+    },
+    "164": {
+        "term": "GHDB",
+        "definition": "(Google Hacking Database) Database of search strings optimized for locating vulnerable websites and services."
+    },
+    "165": {
+        "term": "golden ticket",
+        "definition": "A Kerberos authentication ticket that can grant other tickets in an Active Directory environment."
+    },
+    "166": {
+        "term": "Google Hacking",
+        "definition": "Using Google search operators to locate vulnerable web servers and applications."
+    },
+    "167": {
+        "term": "grep command",
+        "definition": "Linux command for searching and filtering input. This can be used as a file search tool when combined with ls."
+    },
+    "168": {
+        "term": "hardware root of trust",
+        "definition": "A cryptographic module embedded within a computer system that can endorse trusted execution and attest to boot settings and metrics."
+    },
+    "169": {
+        "term": "hardware source authenticity",
+        "definition": "The process of ensuring that hardware is procured tamper-free from trustworthy suppliers."
+    },
+    "170": {
+        "term": "hashcat",
+        "definition": "Command-line tool used to perform brute force and dictionary attacks against password hashes."
+    },
+    "171": {
+        "term": "hashing",
+        "definition": "A function that converts an arbitrary length string input to a fixed length string output. A cryptographic hash function does this in a way that reduces the chance of collisions, where two different inputs produce the same output. Also known as a message digest."
+    },
+    "172": {
+        "term": "heap overflow",
+        "definition": "A software vulnerability where input is allowed to overwrite memory locations within the area of a process\u2019 memory allocation used to store dynamically-sized variables."
+    },
+    "173": {
+        "term": "heuristic analysis",
+        "definition": "A method that uses feature comparisons and likenesses rather than specific signature matching to identify whether the target of observation is malicious."
+    },
+    "174": {
+        "term": "HIDS",
+        "definition": "(host-based intrusion detection system) A type of IDS that monitors a computer system for unexpected behavior or drastic changes to the system\u2019s state."
+    },
+    "175": {
+        "term": "high value asset",
+        "definition": "An information system that processes data critical to a mission essential function."
+    },
+    "176": {
+        "term": "HMI",
+        "definition": "(human-machine interface) Input and output controls on a PLC to allow a user to configure and monitor the system."
+    },
+    "177": {
+        "term": "honeypot",
+        "definition": "A host set up with the purpose of luring attackers away from the actual network components and/or discovering attack strategies and weaknesses in the security configuration. A related term is honeynet, meaning a whole network setup to entice attackers. Also called a decoy or sacrificial lamb."
+    },
+    "178": {
+        "term": "horizontal privilege escalation",
+        "definition": "When a user accesses or modifies specific resources that they are not entitled to."
+    },
+    "179": {
+        "term": "hping",
+        "definition": "Command-line tool used for packet crafting."
+    },
+    "180": {
+        "term": "HSM",
+        "definition": "(hardware security module) An appliance for generating and storing cryptographic keys. This sort of solution may be less susceptible to tampering and insider threats than software-based storage."
+    },
+    "181": {
+        "term": "hybrid cloud",
+        "definition": "A cloud deployment that uses both private and public elements."
+    },
+    "182": {
+        "term": "IaaS",
+        "definition": "(Infrastructure as a Service) A computing method that uses the cloud to provide any or all infrastructure needs."
+    },
+    "183": {
+        "term": "IaC",
+        "definition": "(infrastructure as code) A provisioning architecture in which deployment of resources is performed by scripted automation and orchestration."
+    },
+    "184": {
+        "term": "IAM",
+        "definition": "(identity and access management) A security process that provides identification, authentication, and authorization mechanisms for users, computers, and other entities to work with organizational assets like networks, operating systems, and applications."
+    },
+    "185": {
+        "term": "ICS",
+        "definition": "(industrial control system) A network managing embedded devices (computer systems that are designed to perform a specific, dedicated function)."
+    },
+    "186": {
+        "term": "idempotence",
+        "definition": "In an IaC architecture, the property that an automation or orchestration action always produces the same result, regardless of the component\u2019s previous state."
+    },
+    "187": {
+        "term": "IDS",
+        "definition": "(intrusion detection system) A software and/or hardware system that scans, audits, and monitors the security infrastructure for signs of attacks in progress."
+    },
+    "188": {
+        "term": "imaging",
+        "definition": "Copying the structure and contents of a physical disk device or logical volume to a single file, using a tool such as dd."
+    },
+    "189": {
+        "term": "incident response policy",
+        "definition": "Procedures and guidelines covering appropriate priorities, actions, and responsibilities in the event of security incidents, divided into preparation, detection/analysis, containment, eradication/recovery, and post-incident stages."
+    },
+    "190": {
+        "term": "input validation",
+        "definition": "Any technique used to ensure that the data entered into a field or variable in an application is handled appropriately by that application."
+    },
+    "191": {
+        "term": "insecure object reference",
+        "definition": "Coding vulnerability where unvalidated input is used to select a resource object, such as a file or database."
+    },
+    "192": {
+        "term": "insider threat",
+        "definition": "A type of threat actor who is assigned privileges on the system that cause an intentional or unintentional incident."
+    },
+    "193": {
+        "term": "integer overflow",
+        "definition": "An attack in which a computed result is too large to fit in its assigned storage space, which may lead to crashing or data corruption, and may trigger a buffer overflow."
+    },
+    "194": {
+        "term": "intentional threat",
+        "definition": "A threat actor with a malicious purpose."
+    },
+    "195": {
+        "term": "interception proxy",
+        "definition": "Software that sits between a client and server (a Man-in-the-Middle) and allows requests from the client and responses from the server to be analyzed and modified."
+    },
+    "196": {
+        "term": "Internet header",
+        "definition": "A record of the email servers involved in transferring an email message from a sender to a recipient."
+    },
+    "197": {
+        "term": "IoC",
+        "definition": "(indicator of compromise) A sign that an asset or network has been attacked or is currently under attack."
+    },
+    "198": {
+        "term": "IoT",
+        "definition": "(Internet of Things) A group of objects (electronic or not) that are connected to the wider Internet by using embedded electronic components."
+    },
+    "199": {
+        "term": "IPS",
+        "definition": "(intrusion prevention system) An IDS that can actively block attacks."
+    },
+    "200": {
+        "term": "iptables",
+        "definition": "Command-line utility for configuring the netfilter firewall implemented in the Linux kernel."
+    },
+    "201": {
+        "term": "irregular peer-to-peer communication",
+        "definition": "Attack indicator where hosts within a network establish connections over unauthorized ports or data transfers."
+    },
+    "202": {
+        "term": "ISA",
+        "definition": "(interconnection security agreement) Any federal agency interconnecting its IT system to a third-party must create an ISA to govern the relationship. An ISA sets out a security risk awareness process and commit the agency and supplier to implementing security controls."
+    },
+    "203": {
+        "term": "ISAC",
+        "definition": "(Information Sharing and Analysis Center) Not-for-profit group set up to share sector-specific threat intelligence and security best practices amongst its members."
+    },
+    "204": {
+        "term": "ITIL",
+        "definition": "(IT Infrastructure Library) An IT best practice framework, emphasizing the alignment of IT Service Management (ITSM) with business needs. ITIL was first developed in 1989 by the UK government and the ITIL v3 2011 edition is now marketed by AXELOS."
+    },
+    "205": {
+        "term": "jumpbox",
+        "definition": "A hardened server that provides access to other hosts. Sometimes referred to as a jump server."
+    },
+    "206": {
+        "term": "kill chain",
+        "definition": "A model developed by Lockheed Martin that describes the stages by which a threat actor progresses a network"
+    },
+    "207": {
+        "term": "intrusion.",
+        "definition": "known bad Internet Protocol An IP address or range of addresses that appears on one or more blacklists."
+    },
+    "208": {
+        "term": "known threat",
+        "definition": "A threat that can be identified using basic signature or pattern matching. legacy system A computer system that is no longer supported by its vendor and so no longer provided with security updates and patches."
+    },
+    "209": {
+        "term": "legal hold",
+        "definition": "A process designed to preserve all relevant information when litigation is reasonably expected to occur."
+    },
+    "210": {
+        "term": "living off the land",
+        "definition": "Exploit techniques that use standard system tools and packages to perform intrusions."
+    },
+    "211": {
+        "term": "LLR",
+        "definition": "(lessons learned report) An analysis of events that can provide insight into how to improve response processes in the future."
+    },
+    "212": {
+        "term": "MAC",
+        "definition": "(Mandatory Access Control) Access control model where resources are protected by inflexible, system defined rules. Resources (objects) and users (subjects) are allocated a clearance level (or label)."
+    },
+    "213": {
+        "term": "MAC filtering",
+        "definition": "(Media Access Control filtering) Applying an access control list to a switch or access point so that only clients with approved MAC addresses can connect to it."
+    },
+    "214": {
+        "term": "machine code",
+        "definition": "Software that has been assembled into the binary instructions (expressed as hexadecimal) native to the processor platform."
+    },
+    "215": {
+        "term": "magnitude",
+        "definition": "In risk calculation, the cost of a security incident or disaster scenario."
+    },
+    "216": {
+        "term": "MFA",
+        "definition": "(multifactor authentication) An authentication scheme that requires the user to present at least two different factors as credentials, from something you know, something you have, something you are, something you do, and somewhere you are. Specifying two factors is known as 2FA."
+    },
+    "217": {
+        "term": "malicious process",
+        "definition": "A process executed without proper authorization from the system owner for the purpose of damaging or compromising the system."
+    },
+    "218": {
+        "term": "microservices",
+        "definition": "A software architecture where components of the solution are conceived as highly decoupled services not dependent on a single platform type or technology."
+    },
+    "219": {
+        "term": "managerial control",
+        "definition": "A category of security control that gives oversight of the information system. mismatched  port/application traffic. Communicating non-standard traffic over a well-known or registered port."
+    },
+    "220": {
+        "term": "maturity model",
+        "definition": "A component of an ESA framework that is used to assess the formality and optimization of security control selection and usage and address any gaps."
+    },
+    "221": {
+        "term": "MDA/MD5",
+        "definition": "(Message Digest Algorithm v5) The Message Digest Algorithm was designed in 1990 by Ronald Rivest, one of the \"fathers\" of modern cryptography. The most widely used version is MD5, released in 1991, which uses a 128-bit hash value."
+    },
+    "222": {
+        "term": "MitM",
+        "definition": "(man-in-the-middle) Where the attacker intercepts communications between two hosts."
+    },
+    "223": {
+        "term": "ML",
+        "definition": "(machine learning) A component of AI that enables a machine to develop strategies for solving a task given a labeled dataset where features have been manually identified but without further explicit instructions."
+    },
+    "224": {
+        "term": "MDM",
+        "definition": "(mobile device management) The process and supporting technologies for tracking, controlling, and securing the organization\u2019s mobile infrastructure."
+    },
+    "225": {
+        "term": "MoA",
+        "definition": "(Memorandum of Agreement) Legal document forming the basis for two parties to cooperate without a formal contract (a cooperative agreement). MOAs are often used by public bodies."
+    },
+    "226": {
+        "term": "measured boot",
+        "definition": "A UEFI feature that gathers secure metrics to validate the boot process in an attestation report."
+    },
+    "227": {
+        "term": "Modbus",
+        "definition": "A communications protocol used in operational technology networks."
+    },
+    "228": {
+        "term": "MEF",
+        "definition": "(mission essential function) A business or organizational activity that is too critical to be deferred for anything more than a few hours, if at all."
+    },
+    "229": {
+        "term": "Metasploit Framework",
+        "definition": "A platform for launching modularized attacks against known software vulnerabilities."
+    },
+    "230": {
+        "term": "ModSecurity",
+        "definition": "An open source (sponsored by Trustwave) Web Application Firewall (WAF) for Apache, nginx, and IIS."
+    },
+    "231": {
+        "term": "MoU",
+        "definition": "(memorandum of understanding) Usually a preliminary or exploratory agreement to express an intent to work together that is not legally binding and does not involve the exchange of money."
+    },
+    "232": {
+        "term": "MRTG",
+        "definition": "(Multi Router Traffic Grapher) Creates graphs showing historical traffic flows through the network interfaces of routers and switches by polling the appliances using the Simple Network Management Protocol (SNMP)."
+    },
+    "233": {
+        "term": "MTD",
+        "definition": "(maximum tolerable downtime) The longest period of time a business can be inoperable without causing irrevocable business failure."
+    },
+    "234": {
+        "term": "multi-cloud",
+        "definition": "A cloud deployment model where the cloud consumer uses multiple public cloud services."
+    },
+    "235": {
+        "term": "NAC",
+        "definition": "(network access control) A general term for the collected protocols, policies, and hardware that authenticate and authorize access to a network at the device level."
+    },
+    "236": {
+        "term": "nation state",
+        "definition": "A type of threat actor that is supported by the resources of its host country\u2019s military and security services."
+    },
+    "237": {
+        "term": "Nessus",
+        "definition": "One of the best-known commercial vulnerability scanners, produced by Tenable Network Security."
+    },
+    "238": {
+        "term": "NetBIOS",
+        "definition": "NetBIOS is a session management protocol used to provide name registration and resolution services on legacy Microsoft networks."
+    },
+    "239": {
+        "term": "netcat",
+        "definition": "Utility for reading and writing raw data over a network connection."
+    },
+    "240": {
+        "term": "Netflow",
+        "definition": "A Cisco-developed means of reporting network flow information to a structured database. NetFlow allows better understanding of IP traffic flows as used by different network applications and hosts."
+    },
+    "241": {
+        "term": "Nikto",
+        "definition": "Vulnerability scanner that can be used to identify known web server vulnerabilities and misconfigurations, identify web applications running on a server, and identify potential known vulnerabilities in those web applications."
+    },
+    "242": {
+        "term": "NIST",
+        "definition": "(National Institute of Standards and Technology) Develops computer security standards used by US federal agencies and publishes cybersecurity best practice guides and research."
+    },
+    "243": {
+        "term": "Nmap",
+        "definition": "Versatile port scanner used for topology, host, service, and OS discovery and enumeration."
+    },
+    "244": {
+        "term": "non-transparent proxy",
+        "definition": "A server that redirects requests and responses for clients configured with the proxy address and port."
+    },
+    "245": {
+        "term": "NVD",
+        "definition": "(National Vulnerability Database) A superset of the CVE database, maintained by NIST."
+    },
+    "246": {
+        "term": "OODA Loop",
+        "definition": "Effective decision-making model (Observe, Orient, Decide, Act) created by Colonel John Boyd."
+    },
+    "247": {
+        "term": "OpenIOC",
+        "definition": "A file format for supplying codified information to automate incident detection and analysis."
+    },
+    "248": {
+        "term": "OpenVAS",
+        "definition": "(Vulnerability Assessment System) Open source vulnerability scanner, originally developed from the Nessus codebase at the point where Nessus became commercial software."
+    },
+    "249": {
+        "term": "operational control",
+        "definition": "A category of security control that is implemented by people."
+    },
+    "250": {
+        "term": "orchestration",
+        "definition": "The automation of multiple steps in a deployment process."
+    },
+    "251": {
+        "term": "organized crime",
+        "definition": "A type of threat actor that uses hacking and computer fraud for commercial gain."
+    },
+    "252": {
+        "term": "OSINT",
+        "definition": "(open-source intelligence) Publicly available information plus the tools used to aggregate and search it."
+    },
+    "253": {
+        "term": "OSSIM",
+        "definition": "(Open Source Security Information Management) An SIEM product developed by Alien Vault, who market commercial versions of it. As well as standard SIEM functions such as asset discovery and log management, OSSIM can integrate other open source tools, such as the SNORT IDS and OpenVAS vulnerability scanner."
+    },
+    "254": {
+        "term": "OT",
+        "definition": "(operational technology) A communications network designed to implement an industrial control system rather than data networking."
+    },
+    "255": {
+        "term": "output encoding",
+        "definition": "Coding methods to sanitize output created from user input."
+    },
+    "256": {
+        "term": "OVAL",
+        "definition": "(Online Vulnerability and Assessment Language) An XML schema, maintained by MITRE, for describing system security state and querying vulnerability reports and information."
+    },
+    "257": {
+        "term": "OWASP",
+        "definition": "(Open Web Application Security Project) A charity and community publishing a number of secure application development resources."
+    },
+    "258": {
+        "term": "PaaS",
+        "definition": "(Platform as a Service) A computing method that uses the cloud to provide any platform-type services."
+    },
+    "259": {
+        "term": "packet analysis",
+        "definition": "Analysis of the headers and payload data of one or more frames in captured network traffic."
+    },
+    "260": {
+        "term": "packet sniffing",
+        "definition": "Recording data from frames as they pass over network media, using methods such as a mirror port or tap device."
+    },
+    "261": {
+        "term": "PACS",
+        "definition": "(physical access control system) Components and protocols that facilitate the centralized configuration and monitoring of security mechanisms within offices and data centers."
+    },
+    "262": {
+        "term": "Pacu",
+        "definition": "An open-source cloud penetration testing framework."
+    },
+    "263": {
+        "term": "parameterized query",
+        "definition": "A technique that defends against SQL injection by incorporating placeholders in a SQL query."
+    },
+    "264": {
+        "term": "passive scan",
+        "definition": "An enumeration or vulnerability scan that analyzes only intercepted network traffic rather than sending probes to a target."
+    },
+    "265": {
+        "term": "password policy",
+        "definition": "A policy document that promotes strong passwords by specifying a minimum password length, requiring complex passwords, requiring periodic password changes, and placing limits on reuse of passwords."
+    },
+    "266": {
+        "term": "password spraying",
+        "definition": "Brute force attack in which multiple user accounts are tested with a dictionary of common passwords."
+    },
+    "267": {
+        "term": "patch management",
+        "definition": "Identifying, testing, and deploying OS and application updates. Patches are often classified as critical, security-critical, recommended, and optional."
+    },
+    "268": {
+        "term": "PBF",
+        "definition": "(primary business function) An important business or organizational activity that supports MEFs but is capable of being deferred during a disaster event scenario."
+    },
+    "269": {
+        "term": "PCI DSS",
+        "definition": "(Payment Card Industry Data Security Standard) Information security standard for organizations that process credit or bank card payments."
+    },
+    "270": {
+        "term": "penetration testing",
+        "definition": "A test that uses active tools and security utilities to evaluate security by simulating an attack on a system. A pen test will verify that a threat exists, then will actively test and bypass security controls, and will finally exploit vulnerabilities on the system. Also known as a pentest."
+    },
+    "271": {
+        "term": "percent encoding",
+        "definition": "Mechanism for encoding characters as hexadecimal values delimited by the percent sign."
+    },
+    "272": {
+        "term": "persistence",
+        "definition": "In cybersecurity, the ability of a threat actor to maintain covert access to a target host or network."
+    },
+    "273": {
+        "term": "PHI",
+        "definition": "(protected health information) Information that identifies someone as the subject of medical and insurance records, plus associated hospital and laboratory test results."
+    },
+    "274": {
+        "term": "physical control",
+        "definition": "A type of security control that acts against in-person intrusion attempts."
+    },
+    "275": {
+        "term": "PII",
+        "definition": "(personally identifiable information) Data that can be used to identify or contact an individual (or in the case of identity theft, to impersonate them)."
+    },
+    "276": {
+        "term": "piping",
+        "definition": "Using the output of one command as the input for a second command."
+    },
+    "277": {
+        "term": "pivoting",
+        "definition": "When an attacker uses a compromised host (the pivot) as a platform from which to spread an attack to other points in the network."
+    },
+    "278": {
+        "term": "playbook",
+        "definition": "A checklist of actions to perform to detect and respond to a specific type of incident."
+    },
+    "279": {
+        "term": "PLC",
+        "definition": "(programmable logic controller) A type of computer designed for deployment in an industrial or outdoor setting that can automate and monitor mechanical systems."
+    },
+    "280": {
+        "term": "PNAC",
+        "definition": "(port-based network access control) A switch (or router) that performs some sort of authentication of the attached device before activating the port."
+    },
+    "281": {
+        "term": "port mirroring",
+        "definition": "Copying ingress and/or egress communications from one or more switch ports to another port. This is used to monitor communications passing over the switch."
+    },
+    "282": {
+        "term": "port scanning",
+        "definition": "Enumerating the status of TCP and UDP ports on a target system using software tools."
+    },
+    "283": {
+        "term": "port security",
+        "definition": "Preventing a device attached to a switch port from communicating on the network unless it matches a given MAC address or other protection profile."
+    },
+    "284": {
+        "term": "posture assessment",
+        "definition": "The process for verifying compliance with a health policy by using host health checks."
+    },
+    "285": {
+        "term": "prescriptive framework",
+        "definition": "In ESA, a framework that stipulates control selection and deployment."
+    },
+    "286": {
+        "term": "preventative control",
+        "definition": "A type of security control that acts before an incident to eliminate or reduce the likelihood that an attack can succeed."
+    },
+    "287": {
+        "term": "private cloud",
+        "definition": "A cloud that is deployed for use by a single entity."
+    },
+    "288": {
+        "term": "privilege escalation",
+        "definition": "The practice of exploiting flaws in an operating system or other application to gain a greater level of access than was intended for the user or application."
+    },
+    "289": {
+        "term": "privilege management",
+        "definition": "The use of authentication and authorization mechanisms to provide an administrator with centralized or decentralized control of user and group role-based privilege management."
+    },
+    "290": {
+        "term": "probability",
+        "definition": "In risk calculation, the chance of a threat being realized, expressed as a percentage."
+    },
+    "291": {
+        "term": "Process Explorer",
+        "definition": "Tool in the Microsoft Sysinternals suite to monitor process properties and behavior."
+    },
+    "292": {
+        "term": "Process Monitor",
+        "definition": "Tool in the Microsoft Sysinternals suite to monitor process interaction with the file system, Registry, and network."
+    },
+    "293": {
+        "term": "proprietary information",
+        "definition": "Information created by an organization, typically about the products or services that it makes or provides."
+    },
+    "294": {
+        "term": "protocol analysis",
+        "definition": "Analysis of per-protocol utilization statistics in a packet capture or network traffic sampling."
+    },
+    "295": {
+        "term": "Prowler",
+        "definition": "An open-source cloud vulnerability scanner designed for AWS auditing."
+    },
+    "296": {
+        "term": "proxy server",
+        "definition": "A server that mediates the communications between a client and another server. It can filter and often modify communications, as well as provide caching services to improve performance. Sometimes referred to as a forward proxy."
+    },
+    "297": {
+        "term": "PtH attack",
+        "definition": "(pass the hash attack) A network-based attack where the attacker steals hashed user credentials and uses them as-is to try to authenticate to the same network the hashed credentials originated on."
+    },
+    "298": {
+        "term": "PUA",
+        "definition": "(privileged user agreement) Contract terms stating a code of conduct for employees assigned high-level privileges on network and data systems."
+    },
+    "299": {
+        "term": "public cloud",
+        "definition": "A cloud that is deployed for shared use by multiple independent tenants."
+    },
+    "300": {
+        "term": "purpose limitation",
+        "definition": "In data protection, the principle that personal information can be collected and processed only for a stated purpose to which the subject has consented."
+    },
+    "301": {
+        "term": "QRadar",
+        "definition": "IBM\u2019s SIEM log management, analytics, and compliance reporting platform."
+    },
+    "302": {
+        "term": "qualitative analysis",
+        "definition": "A risk analysis method that is based on assigning concrete values to factors."
+    },
+    "303": {
+        "term": "race condition",
+        "definition": "A software vulnerability when the resulting outcome from execution processes is directly dependent on the order and timing of certain events, and those events fail to execute in the order and timing intended by the developer."
+    },
+    "304": {
+        "term": "RBAC",
+        "definition": "(role-based access control) An access control model where resources are protected by ACLs that are managed by administrators and that provide user permissions based on job functions."
+    },
+    "305": {
+        "term": "reaver",
+        "definition": "Command-line tool used to perform brute force attacks against WPS-enabled access points."
+    },
+    "306": {
+        "term": "reconstitution",
+        "definition": "A method of restoring a system that cannot be sanitized using manual removal, reinstallation, and monitoring processes."
+    },
+    "307": {
+        "term": "reconstruction",
+        "definition": "A method of restoring a system that has been sanitized using scripted installation routines and templates."
+    },
+    "308": {
+        "term": "red team",
+        "definition": "The \"hostile\" or attacking team in a penetration test or incident response exercise."
+    },
+    "309": {
+        "term": "regex",
+        "definition": "(regular expression) A group of characters that describe how to execute a specific search pattern on a given text."
+    },
+    "310": {
+        "term": "reimage",
+        "definition": "A method of restoring a system that has been sanitized using an image-based backup."
+    },
+    "311": {
+        "term": "relevancy",
+        "definition": "Property of an intelligence source that ensures it matches the use cases intended for it."
+    },
+    "312": {
+        "term": "remediation",
+        "definition": "The result of a device not meeting a security profile or health policy, including gaining access to a guest or quarantine network."
+    },
+    "313": {
+        "term": "remote code execution",
+        "definition": "A vulnerability that allows an attacker to transmit code from a remote host for execution on a target host or a module that exploits such a vulnerability."
+    },
+    "314": {
+        "term": "reporting requirements",
+        "definition": "Notifications that must be made to affected parties in the event of a data breach, as required by legislation or regulation."
+    },
+    "315": {
+        "term": "reputation data",
+        "definition": "Blacklists of known threat sources, such as malware signatures, IP address ranges, and DNS domains."
+    },
+    "316": {
+        "term": "responder",
+        "definition": "Command-line tool used to poison responses to NetBIOS, LLMNR, and MDNS name resolution requests. risk-based framework In ESA, a framework that uses risk assessment to prioritize security control selection and investment."
+    },
+    "317": {
+        "term": "reverse engineering",
+        "definition": "The process of analyzing the structure of hardware or software to reveal more about how it functions. rogue device An unauthorized device or service, such as a wireless access point DHCP server, or DNS server, on a corporate or private network that allows unauthorized individuals to connect to the network."
+    },
+    "318": {
+        "term": "reverse proxy",
+        "definition": "A type of proxy server that protects servers from direct contact with client requests."
+    },
+    "319": {
+        "term": "reverse shell",
+        "definition": "A maliciously spawned remote command shell where the victim host opens the connection to the attacking host."
+    },
+    "320": {
+        "term": "risk acceptance",
+        "definition": "The response of determining that a risk is within the organization\u2019s appetite and no countermeasures other than ongoing monitoring is needed."
+    },
+    "321": {
+        "term": "risk avoidance",
+        "definition": "In risk mitigation, the practice of ceasing activity that presents risk."
+    },
+    "322": {
+        "term": "risk avoidance",
+        "definition": "In risk mitigation, the response of deploying security controls to reduce the likelihood and/or impact of a threat scenario."
+    },
+    "323": {
+        "term": "risk deterrence",
+        "definition": "In risk mitigation, the response of deploying security controls to reduce the likelihood and/or impact of a threat scenario. Also known as risk reduction."
+    },
+    "324": {
+        "term": "risk mitigation",
+        "definition": "The response of reducing risk to fit within an organization\u2019s risk appetite."
+    },
+    "325": {
+        "term": "risk register",
+        "definition": "A document highlighting the results of risk assessments in an easily comprehensible format (such as a \"traffic light\" grid). Its purpose is for department managers and technicians to understand risks associated with the workflows that they manage."
+    },
+    "326": {
+        "term": "risk transference",
+        "definition": "In risk mitigation, the response of moving or sharing the responsibility of risk to another entity."
+    },
+    "327": {
+        "term": "rogue system detection",
+        "definition": "The process of identifying and removing any hosts that are not supposed to be on a network."
+    },
+    "328": {
+        "term": "rootkit",
+        "definition": "A class of malware that modifies system files, often at the kernel level, to conceal its presence."
+    },
+    "329": {
+        "term": "ROSI",
+        "definition": "(return on security investment) A metric to calculate whether a security control is worth the cost of deploying and maintaining it."
+    },
+    "330": {
+        "term": "RPO",
+        "definition": "(recovery point objective) The longest period of time that an organization can tolerate lost data being unrecoverable."
+    },
+    "331": {
+        "term": "RTO",
+        "definition": "(recovery time objective) The length of time it takes after an event to resume normal business operations and activities."
+    },
+    "332": {
+        "term": "RTOS",
+        "definition": "(real-time operating system) A type of OS that prioritizes deterministic execution of operations to ensure consistent response for time-critical tasks."
+    },
+    "333": {
+        "term": "runbook",
+        "definition": "An automated version of a playbook that leaves clearly defined interaction points for human analysis."
+    },
+    "334": {
+        "term": "S/MIME",
+        "definition": "(Secure/Multipurpose Internet Mail Extensions) An email encryption standard that adds digital signatures and public key cryptography to traditional MIME communications."
+    },
+    "335": {
+        "term": "SaaS",
+        "definition": "(Software as a Service) A computing method that uses the cloud to provide application services to users."
+    },
+    "336": {
+        "term": "SAML",
+        "definition": "(Security Assertion Markup Language) An XML-based data format used to exchange authentication information between a client and a service."
+    },
+    "337": {
+        "term": "sandbox",
+        "definition": "A computing environment that is isolated from a host system to guarantee that the environment runs in a controlled, secure fashion. Communication links between the sandbox and the host are usually completely prohibited."
+    },
+    "338": {
+        "term": "SANS Institute",
+        "definition": "(SysAdmin, Network, and Security) A company specializing in cybersecurity and secure web application development training and sponsors the Global Information Assurance Certification (GIAC)."
+    },
+    "339": {
+        "term": "SCADA",
+        "definition": "(Supervisory Control and Data Acquisition) A type of industrial control system that manages large-scale, multiple-site devices and equipment spread over geographically large areas."
+    },
+    "340": {
+        "term": "SCAP",
+        "definition": "(Security Content Automation Protocol) A NIST framework that outlines various accepted practices for automating vulnerability scanning."
+    },
+    "341": {
+        "term": "ScoutSuite",
+        "definition": "An open-source cloud vulnerability scanner designed for AWS, Azure, and GCP auditing."
+    },
+    "342": {
+        "term": "SDL",
+        "definition": "(Security Development Lifecycle) Microsoft\u2019s security framework for application development that supports dynamic development processes."
+    },
+    "343": {
+        "term": "SDLC",
+        "definition": "(Software Development Life Cycle) The processes of planning, analysis, design, implementation, and maintenance that often govern software and systems development."
+    },
+    "344": {
+        "term": "SDN",
+        "definition": "(software defined networking) APIs and compatible hardware allowing for programmable network appliances and systems."
+    },
+    "345": {
+        "term": "SE",
+        "definition": "(secure erase) A method of sanitizing a drive using the ATA command set."
+    },
+    "346": {
+        "term": "secure boot",
+        "definition": "A UEFI feature that prevents unwanted processes from executing during the boot operation."
+    },
+    "347": {
+        "term": "secure processing",
+        "definition": "A mechanism for ensuring the confidentiality, integrity, and availability of software code and data as it is executed in volatile memory."
+    },
+    "348": {
+        "term": "security control",
+        "definition": "A technology or procedure put in place to mitigate vulnerabilities and risk and to ensure the confidentiality, integrity, and availability (CIA) of information."
+    },
+    "349": {
+        "term": "security intelligence cycle",
+        "definition": "The process through which data generated in the ongoing use of information systems is collected, processed, analyzed, and disseminated. At the start and end of the cycle, requirements and feedback phases establish goals and effectiveness."
+    },
+    "350": {
+        "term": "security regression testing",
+        "definition": "The process of checking that updates to code do not compromise existing security functionality or capability."
+    },
+    "351": {
+        "term": "SED",
+        "definition": "(self-encrypting drive) A disk drive where the controller can automatically encrypt data that is written to it."
+    },
+    "352": {
+        "term": "segregation",
+        "definition": "A situation where hosts on one network segment are prevented from or restricted in communicating with hosts on other segments."
+    },
+    "353": {
+        "term": "semi-quantitative analysis",
+        "definition": "A risk analysis method that uses a description that is associated with a numeric value. It is neither fully qualitative nor quantitative."
+    },
+    "354": {
+        "term": "sensitive data exposure",
+        "definition": "A software vulnerability where an attacker is able to circumvent access controls and retrieve confidential or sensitive data from the file system or database."
+    },
+    "355": {
+        "term": "serverless",
+        "definition": "A software architecture that runs functions within virtualized runtime containers in a cloud rather than on dedicated server instances."
+    },
+    "356": {
+        "term": "session hijacking",
+        "definition": "A type of spoofing attack where the attacker disconnects a host then replaces it with his or her own machine, spoofing the original host\u2019s IP address."
+    },
+    "357": {
+        "term": "SHA",
+        "definition": "(Secure Hash Algorithm) A cryptographic hashing algorithm created to address possible weaknesses in MDA. The current version is SHA-2."
+    },
+    "358": {
+        "term": "shadow IT",
+        "definition": "Computer hardware, software, or services used on a private network without authorization from the system owner."
+    },
+    "359": {
+        "term": "shellcode",
+        "definition": "Lightweight block of malicious code that exploits a software vulnerability to gain initial access to a victim system."
+    },
+    "360": {
+        "term": "Shodan",
+        "definition": "Search engine optimized for identifying vulnerable Internet-attached devices."
+    },
+    "361": {
+        "term": "SIEM",
+        "definition": "(security information and event management) A solution that provides real-time or near-real-time analysis of security alerts generated by network hardware and applications."
+    },
+    "362": {
+        "term": "signature-based monitoring",
+        "definition": "A network monitoring system that uses a predefined set of rules provided by a software vendor or security personnel to identify events that are unacceptable."
+    },
+    "363": {
+        "term": "sinkhole",
+        "definition": "A DoS attack mitigation strategy that directs the traffic that is flooding a target IP address to a different network for analysis."
+    },
+    "364": {
+        "term": "SLA",
+        "definition": "(service level agreement) Operating procedures and standards for a service contract."
+    },
+    "365": {
+        "term": "SLE",
+        "definition": "(single loss expectancy) The amount that would be lost in a single occurrence of a particular risk factor."
+    },
+    "366": {
+        "term": "Snort",
+        "definition": "An open source NIDS. A subscription (\"oinkcode\") is required to obtain up to date rulesets, which allows the detection engine to identify the very latest threats. Non-subscribers can obtain community-authored rulesets."
+    },
+    "367": {
+        "term": "snowflake system",
+        "definition": "In an IaC architecture, a system that is different in its configuration compared to a standard template."
+    },
+    "368": {
+        "term": "SOA",
+        "definition": "(service-oriented architecture) A software architecture where components of the solution are conceived as loosely coupled services not dependent on a single platform type or technology."
+    },
+    "369": {
+        "term": "SOAP",
+        "definition": "(Simple Object Access Protocol) An XML-based web services protocol that is used to exchange messages."
+    },
+    "370": {
+        "term": "SOAR",
+        "definition": "(security orchestration, automation, and response) A class of security tools that facilitates incident response, threat hunting, and security configuration by orchestrating automated runbooks and delivering data enrichment."
+    },
+    "371": {
+        "term": "SOC",
+        "definition": "(security operations center) The location where security professionals monitor and protect critical information assets in an organization."
+    },
+    "372": {
+        "term": "SoC",
+        "definition": "(system-on-chip) A processor that integrates the platform functionality of multiple logical controllers onto a single chip."
+    },
+    "373": {
+        "term": "SPF",
+        "definition": "(Sender Policy Framework) DNS record identifying hosts authorized to send mail for the domain."
+    },
+    "374": {
+        "term": "SPI",
+        "definition": "(sensitive personal information) Information about a subject\u2019s opinions, beliefs, and nature that is afforded specially protected status by privacy legislation."
+    },
+    "375": {
+        "term": "Splunk",
+        "definition": "One of the market-leading \"big data\" information gathering and analysis tools."
+    },
+    "376": {
+        "term": "SQL injection",
+        "definition": "(Structured Query Language injection) An attack that injects a database query into the input data directed at a server by accessing the client side of the application."
+    },
+    "377": {
+        "term": "SSO",
+        "definition": "(single sign-on) An authentication technology that enables a user to authenticate once and receive authorizations for multiple services."
+    },
+    "378": {
+        "term": "static code analysis",
+        "definition": "The process of reviewing uncompiled source code either manually or using automated tools."
+    },
+    "379": {
+        "term": "steganography",
+        "definition": "A technique for obscuring the presence of a message, often by embedding information within a file or other entity."
+    },
+    "380": {
+        "term": "STIX",
+        "definition": "(Structured Threat Information eXpression) A framework for analyzing cybersecurity incidents."
+    },
+    "381": {
+        "term": "stress test",
+        "definition": "A software testing method that evaluates how software performs under extreme load."
+    },
+    "382": {
+        "term": "sweep",
+        "definition": "A scan directed at multiple IP addresses to discover whether a host responds to connection requests for particular ports."
+    },
+    "383": {
+        "term": "Sysinternals",
+        "definition": "A suite of tools designed to assist with troubleshooting issues with Windows."
+    },
+    "384": {
+        "term": "syslog",
+        "definition": "A protocol enabling different appliances and software applications to transmit logs or event records to a central server."
+    },
+    "385": {
+        "term": "system hardening",
+        "definition": "The process by which a host or other device is made more secure through the reduction of that device\u2019s attack surface."
+    },
+    "386": {
+        "term": "System Monitor",
+        "definition": "Tool in the Microsoft Sysinternals suite to log process interaction with the file system, Registry, and network. Also known as sysmon."
+    },
+    "387": {
+        "term": "tabletop exercise",
+        "definition": "A discussion of simulated emergency situations and security incidents."
+    },
+    "388": {
+        "term": "TAP",
+        "definition": "(test access port) A hardware device inserted into a cable to copy frames for analysis."
+    },
+    "389": {
+        "term": "TAXII",
+        "definition": "(Trusted Automated eXchange of Indicator Information) A protocol for supplying codified information to automate incident detection and analysis."
+    },
+    "390": {
+        "term": "tcpdump",
+        "definition": "A command-line packet sniffing utility."
+    },
+    "391": {
+        "term": "technical control",
+        "definition": "A category of security control that is implemented as a system (hardware, software, or firmware). Technical controls may also be described as logical controls."
+    },
+    "392": {
+        "term": "threat hunting",
+        "definition": "Cybersecurity technique designed to detect presence of threats that have not been discovered by normal security monitoring."
+    },
+    "393": {
+        "term": "threat modeling",
+        "definition": "The process of identifying and assessing the possible threat actors and attack vectors that pose a risk to the security of an app, network, or other system."
+    },
+    "394": {
+        "term": "timeline",
+        "definition": "In digital forensics, a tool that shows the sequence of file system events within a source image in a graphical format."
+    },
+    "395": {
+        "term": "timeliness",
+        "definition": "Property of an intelligence source that ensures it is up-to-date."
+    },
+    "396": {
+        "term": "TOCTTOU",
+        "definition": "(time of check to time of use) The potential vulnerability that occurs when there is a change between when an app checked a resource and when the app used the resource."
+    },
+    "397": {
+        "term": "tokenization",
+        "definition": "A deidentification method where a unique token is substituted for real data."
+    },
+    "398": {
+        "term": "TPM",
+        "definition": "(Trusted Platform Module) A specification for hardware-based storage of digital certificates, keys, hashed passwords, and other user and platform identification information."
+    },
+    "399": {
+        "term": "traffic spike",
+        "definition": "A sharp increase in connection requests in comparison with a baseline."
+    },
+    "400": {
+        "term": "transparent proxy",
+        "definition": "A server that redirects requests and responses without the client being explicitly configured to use it. Also referred to as a forced or intercepting proxy."
+    },
+    "401": {
+        "term": "trend analysis",
+        "definition": "The process of detecting patterns within a dataset over time, and using those patterns to make predictions about future events or better understand past events."
+    },
+    "402": {
+        "term": "true negative",
+        "definition": "In security scanning, a case that is not reported when it should not be."
+    },
+    "403": {
+        "term": "true positive",
+        "definition": "In security scanning, a case that is reported when it should be."
+    },
+    "404": {
+        "term": "trusted firmware update",
+        "definition": "A mechanism for ensuring the validity of firmware update code."
+    },
+    "405": {
+        "term": "trusted foundry",
+        "definition": "A microprocessor manufacturing utility that is part of a validated supply chain (one where hardware and software does not deviate from its documented function)."
+    },
+    "406": {
+        "term": "unintentional threat",
+        "definition": "A threat actor that causes a vulnerability or exposes an attack vector without malicious intent."
+    },
+    "407": {
+        "term": "unknown threat",
+        "definition": "A threat that cannot be identified using basic signature or pattern matching."
+    },
+    "408": {
+        "term": "use case",
+        "definition": "A detailed description of the steps in a process to achieve the stated goal."
+    },
+    "409": {
+        "term": "VDI",
+        "definition": "(virtual desktop infrastructure) A virtualization implementation that separates the personal computing environment from a user\u2019s physical computer."
+    },
+    "410": {
+        "term": "vertical privilege escalation",
+        "definition": "When an attacker can perform functions that are normally assigned to users in higher roles, and often explicitly denied to the attacker."
+    },
+    "411": {
+        "term": "visualization",
+        "definition": "A widget showing records or metrics in a visual format, such as a graph or table."
+    },
+    "412": {
+        "term": "VPC",
+        "definition": "(virtual private cloud) A private network segment made available to a single cloud consumer on a public cloud."
+    },
+    "413": {
+        "term": "TTP",
+        "definition": "(tactics, techniques, and procedures) Analysis of historical cyber-attacks and adversary actions."
+    },
+    "414": {
+        "term": "VPN",
+        "definition": "(virtual private network) A secure tunnel created between two endpoints connected via an unsecure network (typically the Internet)."
+    },
+    "415": {
+        "term": "UAT",
+        "definition": "(user acceptance testing) Usually one of the last stages in software development before release (beta testing), UAT proves that a program is usable and fit-for-purpose in real-world conditions."
+    },
+    "416": {
+        "term": "vulnerability assessment",
+        "definition": "An evaluation of a system\u2019s security and ability to meet compliance requirements based on the configuration state of the system, as represented by information collected from the system."
+    },
+    "417": {
+        "term": "UEBA",
+        "definition": "(user and entity behavior analytics) A system that can provide automated identification of suspicious activity by user accounts and computer hosts. vulnerability feed A synchronizable list of data and scripts used to check for vulnerabilities. Also referred to as plug-ins or network vulnerability tests (NVTs)."
+    },
+    "418": {
+        "term": "UEFI",
+        "definition": "(Unified Extensible Firmware Interface) A type of system firmware providing support for 64-bit CPU operation at boot, full GUI and mouse operation at boot, and better boot security."
+    },
+    "419": {
+        "term": "vulnerability scanner",
+        "definition": "Hardware or software configured with a list of known weaknesses and exploits and can scan for their presence in a host OS or particular application."
+    },
+    "420": {
+        "term": "WAF",
+        "definition": "(web application firewall) A firewall designed specifically to protect software running on web servers and their backend databases from code injection and DoS attacks."
+    },
+    "421": {
+        "term": "waterfall model",
+        "definition": "A software development model where the phases of the SDLC cascade so that each phase will start only when all tasks identified in the previous phase are complete."
+    },
+    "422": {
+        "term": "watermarking",
+        "definition": "In data protection, methods and technologies that apply a unique anti-tamper signature or message to a copy of a document."
+    },
+    "423": {
+        "term": "web application scanner",
+        "definition": "A vulnerability testing tool designed to identify issues with web servers and web applications."
+    },
+    "424": {
+        "term": "website ripping",
+        "definition": "Copying the source code of website files to analyze for information and vulnerabilities."
+    },
+    "425": {
+        "term": "white team",
+        "definition": "Staff administering, evaluating, and supervising a penetration test or incident response exercise."
+    },
+    "426": {
+        "term": "whitelisting",
+        "definition": "A security configuration where access is denied to any entity (software process, IP/domain, and so on) unless the entity appears on a whitelist."
+    },
+    "427": {
+        "term": "Windows PowerShell",
+        "definition": "A command shell and scripting language built on the .NET Framework."
+    },
+    "428": {
+        "term": "Wireshark",
+        "definition": "A widely-used packet analyzer."
+    },
+    "429": {
+        "term": "WMIC",
+        "definition": "(Windows Management Instrumentation Command-line) A tool that provides an interface into Windows Management Instrumentation (WMI) for local or remote management of computers."
+    },
+    "430": {
+        "term": "work product retention",
+        "definition": "Contractual method of retaining forensics investigators so that analysis is protected from disclosure by the work product doctrine."
+    },
+    "431": {
+        "term": "write blocker",
+        "definition": "Forensic tool to prevent the capture or analysis device or workstation from changing data on a target disk or media."
+    },
+    "432": {
+        "term": "WRT",
+        "definition": "(work recovery time) In disaster recovery, time additional to the RTO of individual systems to perform reintegration and testing of a restored or upgraded system following an event."
+    },
+    "433": {
+        "term": "XML",
+        "definition": "(eXtensible Markup Language) A system for structuring documents so that they are human- and machine-readable. Information within the document is placed within tags, which describe how information within the document is structured."
+    },
+    "434": {
+        "term": "XML injection",
+        "definition": "Attack method where malicious XML is passed as input to exploit a vulnerability in the target app."
+    },
+    "435": {
+        "term": "XSRF",
+        "definition": "(cross-site request forgery) A malicious script hosted on the attacker\u2019s site that can exploit a session started on another site in the same browser."
+    },
+    "436": {
+        "term": "XSS",
+        "definition": "(cross-site scripting) A malicious script hosted on the attacker\u2019s site or coded in a link injected onto a trusted site designed to compromise clients browsing the trusted site, circumventing the browser\u2019s security model of trusted zones."
+    },
+    "437": {
+        "term": "ZAP",
+        "definition": "(Zed Attack Proxy) An open-source interception proxy and web application assessment tool."
+    },
+    "438": {
+        "term": "zero-day",
+        "definition": "A vulnerability in software that is unpatched by the developer or an attack that exploits such a vulnerability."
+    },
+    "439": {
+        "term": "zero-fill",
+        "definition": "A method of sanitizing a drive by setting all bits to zero."
+    }
+}
