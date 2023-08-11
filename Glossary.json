@@ -1,101 +1,1564 @@
 {
     "1": {
+        "lesson": "3",
         "term": "802.1X",
         "definition": "A standard for encapsulating EAP communications over a LAN or wireless LAN and that provides port-based authentication. Also known as EAP (Extensible Authentication Protocol).",
-        "questions": {
-            "1":{
-                "quetion":,
-                "answer":
+        "questions": [
+            {
+              "question": "What is the primary purpose of the 802.1X authentication protocol?",
+              "choices": {
+                "a": "To secure email communications.",
+                "b": "To regulate network traffic flow.",
+                "c": "To provide wireless charging for devices.",
+                "d": "To provide port-based network access control."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Which component initiates the 802.1X authentication process?",
+              "choices": {
+                "a": "Authentication server",
+                "b": "Supplicant (client)",
+                "c": "Authenticator (switch)",
+                "d": "Network firewall"
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does EAP contribute to the flexibility of 802.1X?",
+              "choices": {
+                "a": "EAP enforces strict access control policies.",
+                "b": "EAP is used for network segmentation.",
+                "c": "EAP supports various authentication methods.",
+                "d": "EAP focuses solely on wired networks."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What risk does 802.1X help mitigate?",
+              "choices": {
+                "a": "Physical theft of devices.",
+                "b": "Unauthorized network access.",
+                "c": "Overheating of network equipment.",
+                "d": "Excessive network latency."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "In the 802.1X authentication process, what role does the authentication server play?",
+              "choices": {
+                "a": "It forwards authentication requests to the supplicant.",
+                "b": "It enforces access policies on network devices.",
+                "c": "It verifies the credentials of the supplicant.",
+                "d": "It monitors network traffic for abnormalities."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What security benefit does 802.1X provide to wireless networks?",
+              "choices": {
+                "a": "Prevention of physical theft.",
+                "b": "Enforcement of data encryption.",
+                "c": "Protection against malware attacks.",
+                "d": "Control over unauthorized network connections."
+              },
+              "answer": "d"
             }
-        }
+        ]
     },
+
     "2": {
+        "lesson": "9",
         "term": "ABAC",
-        "definition": "(attribute-based access control) An access control technique that evaluates a set of attributes that each subject possesses to determine if access should be granted."
+        "definition": "(attribute-based access control) An access control technique that evaluates a set of attributes that each subject possesses to determine if access should be granted.",
+        "questions": [
+            {
+              "question": "What does ABAC stand for in the context of access control?",
+              "choices": {
+                "a": "Advanced Biometric Authentication Control.",
+                "b": "Attribute-Based Authorization Configuration.",
+                "c": "Automated Business Access Compliance.",
+                "d": "Attribute-Based Access Control."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does ABAC differ from traditional access control models like RBAC?",
+              "choices": {
+                "a": "ABAC relies on predefined roles.",
+                "b": "ABAC focuses on physical access control.",
+                "c": "ABAC uses only usernames and passwords.",
+                "d": "ABAC considers attributes for access decisions."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What types of attributes are used in ABAC?",
+              "choices": {
+                "a": "Only subject attributes.",
+                "b": "Only object attributes.",
+                "c": "Only environment attributes.",
+                "d": "Subject, object, and environment attributes."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does ABAC enhance security in complex environments?",
+              "choices": {
+                "a": "By limiting access to only subject attributes.",
+                "b": "By relying solely on predefined roles.",
+                "c": "By considering multiple attributes for access control.",
+                "d": "By excluding environmental attributes."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is a practical use case for ABAC?",
+              "choices": {
+                "a": "Controlling physical access to a building.",
+                "b": "Assigning fixed roles to all users.",
+                "c": "Managing email communication.",
+                "d": "Enforcing data access based on user attributes."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does ABAC contribute to dynamic access control?",
+              "choices": {
+                "a": "By using only predefined roles.",
+                "b": "By relying on single-factor authentication.",
+                "c": "By considering multiple attributes for access decisions.",
+                "d": "By excluding object attributes from access control."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "3": {
+        "lesson": "5",
         "term": "abnormal OS process behavior",
-        "definition": "Indicators that a legitimate OS process has been corrupted with malicious code for the purpose of damaging or compromising the system."
+        "definition": "Indicators that a legitimate OS process has been corrupted with malicious code for the purpose of damaging or compromising the system.",
+        "questions": [
+            {
+              "question": "What does 'abnormal OS process behavior' refer to in cybersecurity?",
+              "choices": {
+                "a": "The normal execution of operating system tasks.",
+                "b": "Predictable patterns of software installation.",
+                "c": "Deviations from expected actions of system processes.",
+                "d": "Scheduled updates of antivirus software."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How can abnormal OS process behavior indicate a security threat?",
+              "choices": {
+                "a": "It signifies regular system maintenance.",
+                "b": "It indicates normal background tasks.",
+                "c": "It might suggest unauthorized access or malware.",
+                "d": "It ensures that all software is up-to-date."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What are some common indicators of abnormal process behavior?",
+              "choices": {
+                "a": "Steady CPU and memory usage.",
+                "b": "Predictable network traffic patterns.",
+                "c": "Frequent software updates.",
+                "d": "Rapid spikes in CPU or memory usage."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How can baseline behavior help in detecting abnormal OS process behavior?",
+              "choices": {
+                "a": "By identifying all system vulnerabilities.",
+                "b": "By focusing solely on external threats.",
+                "c": "By establishing patterns of normal behavior.",
+                "d": "By triggering immediate system shutdowns."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What role does intrusion detection play in identifying abnormal process behavior?",
+              "choices": {
+                "a": "It prevents all process behavior.",
+                "b": "It monitors physical access to the system.",
+                "c": "It identifies deviations from normal behavior.",
+                "d": "It ensures rapid system updates."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is a timely response crucial when abnormal process behavior is detected?",
+              "choices": {
+                "a": "To gather historical data for analysis.",
+                "b": "To wait for the behavior to normalize.",
+                "c": "To prevent further damage and contain potential threats.",
+                "d": "To document the process for future reference."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "4": {
+        "lesson": "1",
         "term": "accuracy",
-        "definition": "Property of an intelligence source that ensures it produces effective results."
+        "definition": "Property of an intelligence source that ensures it produces effective results.",
+        "questions": [
+            {
+              "question": "What is the meaning of 'accuracy' in the context of cybersecurity?",
+              "choices": {
+                "a": "The amount of data generated by security tools.",
+                "b": "The correctness and reliability of data and analysis.",
+                "c": "The speed at which security incidents are detected.",
+                "d": "The complexity of security algorithms."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "Why is accuracy important when analyzing security data?",
+              "choices": {
+                "a": "It guarantees the highest number of alerts possible.",
+                "b": "It speeds up response time to every alert.",
+                "c": "It ensures informed decisions based on reliable information.",
+                "d": "It eliminates the need for threat intelligence."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "In what scenario would high accuracy be crucial?",
+              "choices": {
+                "a": "When analyzing regular user activities.",
+                "b": "When identifying potential software updates.",
+                "c": "When detecting malware infections.",
+                "d": "When monitoring network latency."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How can a lack of accuracy impact cybersecurity operations?",
+              "choices": {
+                "a": "It leads to an excess of false positives.",
+                "b": "It reduces the need for incident response.",
+                "c": "It ensures better collaboration between teams.",
+                "d": "It helps focus solely on internal threats."
+              },
+              "answer": "a"
+            },
+            {
+              "question": "How does accurate data contribute to effective incident response?",
+              "choices": {
+                "a": "By automating all incident response actions.",
+                "b": "By reducing the need for intrusion detection systems.",
+                "c": "By enabling more informed decision-making and resource allocation.",
+                "d": "By preventing any security incidents from occurring."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the role of continuous monitoring in maintaining accuracy?",
+              "choices": {
+                "a": "To replace the need for accurate data analysis.",
+                "b": "To ensure consistent generation of false positives.",
+                "c": "To update threat patterns and behaviors to counter evolving threats.",
+                "d": "To reduce the need for threat intelligence."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "5": {
+        "lesson": "9",
         "term": "active defense",
-        "definition": "The practice of responding to a threat by destroying or deceiving a threat actor\u2019s capabilities."
+        "definition": "The practice of responding to a threat by destroying or deceiving a threat actor\u2019s capabilities.",
+        "questions": [
+            {
+              "question": "What does 'active defense' refer to in the context of cybersecurity?",
+              "choices": {
+                "a": "Monitoring network traffic without any intervention.",
+                "b": "Reacting to security incidents after they occur.",
+                "c": "Taking proactive measures to prevent and respond to threats.",
+                "d": "Allowing external attackers to penetrate the network for analysis."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does active defense differ from passive defense?",
+              "choices": {
+                "a": "Active defense focuses on observing historical data.",
+                "b": "Active defense only addresses internal threats.",
+                "c": "Passive defense takes proactive measures to deter threats.",
+                "d": "Passive defense relies on honeypots for deception."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is an example of an active defense technique?",
+              "choices": {
+                "a": "Regularly updating software patches.",
+                "b": "Implementing network firewalls.",
+                "c": "Deploying intrusion detection systems.",
+                "d": "Using deception technologies like honeypots."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does threat intelligence contribute to effective active defense?",
+              "choices": {
+                "a": "Threat intelligence automates active defense actions.",
+                "b": "Threat intelligence provides historical data for passive defense.",
+                "c": "Threat intelligence enhances proactive measures with insights on emerging threats.",
+                "d": "Threat intelligence focuses solely on monitoring network traffic."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary goal of deploying deception technologies in active defense?",
+              "choices": {
+                "a": "To mislead security analysts.",
+                "b": "To generate false alarms.",
+                "c": "To provide legitimate users with fake access.",
+                "d": "To deceive attackers and gather information about their behavior."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does active defense contribute to an organization's cybersecurity strategy?",
+              "choices": {
+                "a": "By eliminating the need for passive defense.",
+                "b": "By relying solely on threat intelligence.",
+                "c": "By preventing external threats only.",
+                "d": "By taking proactive measures to prevent and respond to threats."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "6": {
+        "lesson": "2",
         "term": "active scan",
-        "definition": "An enumeration or vulnerability scan that analyzes the responses from probes sent to a target."
+        "definition": "An enumeration or vulnerability scan that analyzes the responses from probes sent to a target.",
+        "questions": [
+            {
+              "question": "What is the purpose of an 'active scan' in cybersecurity?",
+              "choices": {
+                "a": "To monitor network traffic passively.",
+                "b": "To identify vulnerabilities in target systems.",
+                "c": "To simulate an actual attack on the network.",
+                "d": "To create false alarms for security analysts."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does active scanning differ from passive scanning?",
+              "choices": {
+                "a": "Active scanning only observes network traffic.",
+                "b": "Passive scanning simulates attacks on systems.",
+                "c": "Active scanning relies on historical data analysis.",
+                "d": "Passive scanning requires interaction with target systems."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is active scanning considered a proactive cybersecurity measure?",
+              "choices": {
+                "a": "It generates historical logs for post-incident analysis.",
+                "b": "It relies solely on network monitoring tools.",
+                "c": "It identifies vulnerabilities before they are exploited.",
+                "d": "It focuses solely on external threats."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What role does 'fingerprinting' play in the context of active scanning?",
+              "choices": {
+                "a": "Capturing network traffic for analysis.",
+                "b": "Identifying the unique characteristics of a target system.",
+                "c": "Creating fake access points for attackers.",
+                "d": "Analyzing historical data for user profiling."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does an active scan contribute to incident prevention?",
+              "choices": {
+                "a": "By analyzing post-incident data for historical trends.",
+                "b": "By providing real-time network monitoring.",
+                "c": "By identifying vulnerabilities that may be exploited.",
+                "d": "By generating false positives for testing purposes."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary advantage of combining both active and passive scanning techniques?",
+              "choices": {
+                "a": "It reduces the need for intrusion detection systems.",
+                "b": "It eliminates false positives entirely.",
+                "c": "It provides a holistic view of an organization's security posture.",
+                "d": "It automates incident response procedures."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "7": {
+        "lesson": "3",
         "term": "admission control",
-        "definition": "The point at which client devices are granted or denied access based on their compliance with a health policy."
+        "definition": "The point at which client devices are granted or denied access based on their compliance with a health policy.",
+        "questions": [
+            {
+              "question": "What does 'admission control' refer to in the context of cybersecurity?",
+              "choices": {
+                "a": "Managing user access rights within a network.",
+                "b": "Monitoring data flow between network segments.",
+                "c": "Preventing unauthorized devices from connecting to a network.",
+                "d": "Analyzing network traffic for security threats."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary purpose of implementing admission control?",
+              "choices": {
+                "a": "To monitor and control user activities within the network.",
+                "b": "To analyze historical logs for incident investigation.",
+                "c": "To allow unrestricted access to network resources.",
+                "d": "To regulate and secure network access for devices."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Which scenario demonstrates the application of admission control?",
+              "choices": {
+                "a": "Allowing any device to connect to the Wi-Fi network.",
+                "b": "Restricting access to a server based on user roles.",
+                "c": "Monitoring network traffic for unusual patterns.",
+                "d": "Tracking the location of mobile devices within the organization."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does admission control enhance network security?",
+              "choices": {
+                "a": "By facilitating unrestricted access to all devices.",
+                "b": "By analyzing historical data for patterns.",
+                "c": "By preventing unauthorized devices from joining the network.",
+                "d": "By redirecting malicious traffic to honeypots."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What role does 'Network Access Control (NAC)' play in admission control?",
+              "choices": {
+                "a": "NAC is used to bypass admission control for convenience.",
+                "b": "NAC is responsible for managing user access rights.",
+                "c": "NAC enforces policies to ensure compliant device admission.",
+                "d": "NAC focuses solely on monitoring network traffic."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does admission control contribute to mitigating insider threats?",
+              "choices": {
+                "a": "By allowing unrestricted network access to all devices.",
+                "b": "By implementing user-based access controls only.",
+                "c": "By preventing unauthorized devices from connecting.",
+                "d": "By monitoring external network traffic exclusively."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "8": {
+        "lesson": "2",
         "term": "adversary capability",
-        "definition": "A formal classification of the resources and expertise available to a threat actor."
+        "definition": "A formal classification of the resources and expertise available to a threat actor.",
+        "questions": [
+            {
+              "question": "What does 'adversary capability' refer to in the context of cybersecurity?",
+              "choices": {
+                "a": "The strength of an organization's defense mechanisms.",
+                "b": "The skills and resources an attacker possesses.",
+                "c": "The number of incidents a cybersecurity team can handle.",
+                "d": "The level of encryption used to protect sensitive data."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does understanding adversary capabilities benefit a cybersecurity team?",
+              "choices": {
+                "a": "It helps them create more complex passwords.",
+                "b": "It enables them to predict future cyberattacks.",
+                "c": "It assists in crafting effective defense strategies.",
+                "d": "It automates incident response procedures."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which term refers to the range of tactics, techniques, and procedures (TTPs) an adversary can employ?",
+              "choices": {
+                "a": "Adversary capability",
+                "b": "Incident response",
+                "c": "Security incident",
+                "d": "Threat intelligence"
+              },
+              "answer": "a"
+            },
+            {
+              "question": "Why is monitoring adversary capabilities an ongoing process?",
+              "choices": {
+                "a": "To ensure that an organization remains non-competitive.",
+                "b": "To gather information about internal threats.",
+                "c": "To adapt defense strategies to evolving threats.",
+                "d": "To limit access to sensitive information."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How can knowledge of adversary capabilities help improve incident response?",
+              "choices": {
+                "a": "By replacing the need for intrusion detection systems.",
+                "b": "By eliminating the need for user training.",
+                "c": "By enabling a more efficient allocation of resources.",
+                "d": "By automating all incident response actions."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What role does threat intelligence play in understanding adversary capabilities?",
+              "choices": {
+                "a": "It provides information about the organization's employees.",
+                "b": "It helps identify common software vulnerabilities.",
+                "c": "It offers insights into adversary tactics and behaviors.",
+                "d": "It automates vulnerability assessment."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "9": {
+        "lesson": "11",
         "term": "Agile model",
-        "definition": "A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations."
+        "definition": "A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations.",
+        "questions": [
+            {
+              "question": "What is the 'Agile Model' in the context of software development?",
+              "choices": {
+                "a": "A linear and sequential approach to software development.",
+                "b": "A highly structured model with strict deadlines.",
+                "c": "An iterative and flexible approach to software development.",
+                "d": "A model that focuses solely on documentation."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does the Agile Model address changing requirements?",
+              "choices": {
+                "a": "By strictly adhering to the original project plan.",
+                "b": "By avoiding any changes once development starts.",
+                "c": "By incorporating changes during iterative cycles.",
+                "d": "By postponing changes until the project's end."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is a 'sprint' in the Agile Model?",
+              "choices": {
+                "a": "A long period of software development.",
+                "b": "A brief meeting with stakeholders.",
+                "c": "An iterative development cycle with a fixed duration.",
+                "d": "A formal review of project documentation."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does the Agile Model promote collaboration among team members?",
+              "choices": {
+                "a": "By assigning specific roles to each team member.",
+                "b": "By discouraging communication to maintain focus.",
+                "c": "By limiting interaction between developers and stakeholders.",
+                "d": "By emphasizing regular communication and teamwork."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is a key advantage of the Agile Model?",
+              "choices": {
+                "a": "Strict adherence to the initial project plan.",
+                "b": "Limited flexibility to accommodate changes.",
+                "c": "Frequent delivery of working software to customers.",
+                "d": "An exclusive focus on comprehensive documentation."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does the Agile Model benefit from continuous feedback?",
+              "choices": {
+                "a": "It avoids any modifications to the project.",
+                "b": "It accelerates the project's timeline.",
+                "c": "It allows developers to work in isolation.",
+                "d": "It helps identify and address issues early in the process."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "10": {
+        "lesson": "12",
         "term": "AI",
-        "definition": "(artificial intelligence) The science of creating machines with the ability to develop problem solving and analysis strategies without significant human direction or intervention."
+        "definition": "(artificial intelligence) The science of creating machines with the ability to develop problem solving and analysis strategies without significant human direction or intervention.",
+        "questions": [
+            {
+              "question": "What is 'Artificial Intelligence (AI)' in the context of technology?",
+              "choices": {
+                "a": "A system that emulates human emotions.",
+                "b": "A technology that mimics human intelligence.",
+                "c": "A form of virtual reality.",
+                "d": "A platform for advanced data storage."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "What is the primary goal of AI systems?",
+              "choices": {
+                "a": "To replace human decision-making entirely.",
+                "b": "To automate all software development processes.",
+                "c": "To assist and enhance human capabilities.",
+                "d": "To create advanced gaming experiences."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does machine learning contribute to AI?",
+              "choices": {
+                "a": "Machine learning is an alternative term for AI.",
+                "b": "Machine learning enables computers to learn from data.",
+                "c": "Machine learning eliminates the need for data analysis.",
+                "d": "Machine learning focuses on hardware development."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "What is a common application of AI in cybersecurity?",
+              "choices": {
+                "a": "Creating virtual reality environments.",
+                "b": "Designing video games.",
+                "c": "Detecting and mitigating security threats.",
+                "d": "Automating financial transactions."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What role does 'natural language processing (NLP)' play in AI?",
+              "choices": {
+                "a": "NLP helps AI systems mimic human emotions.",
+                "b": "NLP is used to enhance virtual reality experiences.",
+                "c": "NLP enables computers to understand and generate human language.",
+                "d": "NLP is solely used for data storage."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the significance of AI-powered analytics in cybersecurity?",
+              "choices": {
+                "a": "AI-powered analytics focus solely on historical data analysis.",
+                "b": "AI-powered analytics automate all cybersecurity tasks.",
+                "c": "AI-powered analytics enable faster software development.",
+                "d": "AI-powered analytics enhance threat detection and response."
+              },
+              "answer": "d"
+            }
+          ]
     },
+
     "11": {
+        "lesson": "9",
         "term": "air gap",
-        "definition": "A type of network isolation that physically separates a network from all other networks."
+        "definition": "A type of network isolation that physically separates a network from all other networks.",
+        "questions": [
+            {
+              "question": "What is an 'air gap' in the context of cybersecurity?",
+              "choices": {
+                "a": "A physical separation between network devices.",
+                "b": "A wireless network connection.",
+                "c": "An advanced encryption algorithm.",
+                "d": "A type of antivirus software."
+              },
+              "answer": "a"
+            },
+            {
+              "question": "What is the primary purpose of implementing an air gap?",
+              "choices": {
+                "a": "To connect networks for efficient data transfer.",
+                "b": "To ensure constant communication between devices.",
+                "c": "To physically isolate sensitive systems from untrusted networks.",
+                "d": "To increase the speed of network traffic."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of an air gap?",
+              "choices": {
+                "a": "Connecting two corporate networks for file sharing.",
+                "b": "Using Wi-Fi to connect to the internet.",
+                "c": "Using a VPN for remote access.",
+                "d": "Keeping critical systems disconnected from the internet."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does an air gap contribute to data security?",
+              "choices": {
+                "a": "By relying solely on network firewalls.",
+                "b": "By allowing constant data transfer between networks.",
+                "c": "By physically preventing unauthorized access to sensitive systems.",
+                "d": "By using public cloud services for data storage."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What challenge might organizations face when implementing an air gap?",
+              "choices": {
+                "a": "Difficulty in maintaining wireless connectivity.",
+                "b": "Increased vulnerability to external threats.",
+                "c": "Slower data transfer speeds.",
+                "d": "Limited communication between systems."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is it important to periodically evaluate the effectiveness of an air gap?",
+              "choices": {
+                "a": "To replace the air gap with wireless connections.",
+                "b": "To ensure that systems remain disconnected permanently.",
+                "c": "To adapt to evolving security threats and technologies.",
+                "d": "To eliminate the need for incident response procedures."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "12": {
+        "lesson": "8",
         "term": "Aircrack-ng",
-        "definition": "Suite of utilities designed for wireless network security testing."
+        "definition": "Suite of utilities designed for wireless network security testing.",
+        "questions": [
+            {
+              "question": "What is 'Aircrack-ng' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of antivirus software.",
+                "b": "A network intrusion prevention system.",
+                "c": "A wireless network security tool suite.",
+                "d": "A database of cybersecurity vulnerabilities."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary purpose of Aircrack-ng?",
+              "choices": {
+                "a": "To automate system updates.",
+                "b": "To detect and mitigate DDoS attacks.",
+                "c": "To assess and strengthen wireless network security.",
+                "d": "To analyze network traffic patterns."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of Aircrack-ng?",
+              "choices": {
+                "a": "Managing user access rights in a network.",
+                "b": "Analyzing server logs for errors.",
+                "c": "Identifying software vulnerabilities.",
+                "d": "Cracking Wi-Fi passwords to test security."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary feature of Aircrack-ng?",
+              "choices": {
+                "a": "Network firewall management.",
+                "b": "Real-time traffic monitoring.",
+                "c": "Encryption of network traffic.",
+                "d": "Wi-Fi password cracking."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does Aircrack-ng contribute to improving wireless network security?",
+              "choices": {
+                "a": "By blocking all wireless devices.",
+                "b": "By providing real-time threat alerts.",
+                "c": "By analyzing network traffic patterns.",
+                "d": "By identifying weak Wi-Fi passwords and encryption."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is it important to use Aircrack-ng responsibly and ethically?",
+              "choices": {
+                "a": "To maximize network speed.",
+                "b": "To prevent unauthorized access to networks.",
+                "c": "To replace the need for network firewalls.",
+                "d": "To accelerate software development processes."
+              },
+              "answer": "b"
+            }
+        ]
     },
+
     "13": {
+        "lesson": "7",
         "term": "ALE",
-        "definition": "(annual loss expectancy) The total cost of a risk to an organization on an annual basis. This is determined by multiplying the SLE by the annual rate of occurrence (ARO)."
+        "definition": "(annual loss expectancy) The total cost of a risk to an organization on an annual basis. This is determined by multiplying the SLE by the annual rate of occurrence (ARO).",
+        "questions": [
+            {
+              "question": "What is 'Annual Loss Expectancy (ALE)' in the context of risk assessment?",
+              "choices": {
+                "a": "The projected financial loss due to a single security incident.",
+                "b": "The total number of security incidents in a year.",
+                "c": "The average annual revenue of an organization.",
+                "d": "The maximum allowable downtime for systems."
+              },
+              "answer": "a"
+            },
+            {
+              "question": "How is Annual Loss Expectancy (ALE) calculated?",
+              "choices": {
+                "a": "By multiplying the asset value by the exposure factor.",
+                "b": "By dividing the asset value by the single loss expectancy.",
+                "c": "By subtracting the single loss expectancy from the exposure factor.",
+                "d": "By multiplying the exposure factor by the safeguard value."
+              },
+              "answer": "a"
+            },
+            {
+              "question": "Which scenario demonstrates the use of Annual Loss Expectancy (ALE)?",
+              "choices": {
+                "a": "Calculating the average revenue of a business.",
+                "b": "Estimating the time required for incident response.",
+                "c": "Determining the cost of hardware components.",
+                "d": "Assessing the potential financial impact of a data breach."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is Annual Loss Expectancy (ALE) a valuable metric for risk assessment?",
+              "choices": {
+                "a": "It focuses solely on identifying vulnerabilities.",
+                "b": "It helps calculate the average asset value.",
+                "c": "It quantifies the potential financial impact of security incidents.",
+                "d": "It measures the total annual revenue of an organization."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does understanding Annual Loss Expectancy (ALE) assist in risk management?",
+              "choices": {
+                "a": "By eliminating the need for incident response plans.",
+                "b": "By focusing solely on preventive measures.",
+                "c": "By informing decisions on cost-effective safeguards.",
+                "d": "By ensuring 100% security against all threats."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it essential to periodically reevaluate Annual Loss Expectancy (ALE)?",
+              "choices": {
+                "a": "To calculate the average asset value.",
+                "b": "To eliminate the need for incident response plans.",
+                "c": "To adapt to changing threat landscapes and asset values.",
+                "d": "To focus solely on preventive measures."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "14": {
+        "lesson": "5",
         "term": "amplification attack",
-        "definition": "A network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor. Also known as DRDoS (Distributed Reflection Denial of Service)."
+        "definition": "A network-based attack where the attacker dramatically increases the bandwidth sent to a victim during a DDoS attack by implementing an amplification factor. Also known as DRDoS (Distributed Reflection Denial of Service).",
+        "questions": [
+            {
+              "question": "What is an 'Amplification Attack' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of malware that targets network devices.",
+                "b": "A technique to increase the volume of network traffic.",
+                "c": "A form of social engineering attack.",
+                "d": "A method to secure wireless networks."
+              },
+              "answer": "b"
+            },
+            {
+              "question": "How does an Amplification Attack work?",
+              "choices": {
+                "a": "By using advanced encryption algorithms.",
+                "b": "By targeting user accounts with weak passwords.",
+                "c": "By generating a large volume of malicious traffic.",
+                "d": "By spreading malware through email attachments."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the impact of an Amplification Attack?",
+              "choices": {
+                "a": "A hacker gaining unauthorized access to a server.",
+                "b": "A phishing email tricking users into revealing passwords.",
+                "c": "A sudden increase in network bandwidth consumption.",
+                "d": "A denial-of-service attack targeting a single user."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is a common method used in Amplification Attacks?",
+              "choices": {
+                "a": "Sending a large number of emails with malicious attachments.",
+                "b": "Exploiting software vulnerabilities to gain control of systems.",
+                "c": "Using unauthorized access to manipulate network traffic.",
+                "d": "Abusing publicly accessible servers for reflection."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How can organizations defend against Amplification Attacks?",
+              "choices": {
+                "a": "By disabling all network services.",
+                "b": "By restricting user access to networks.",
+                "c": "By monitoring network traffic for malware.",
+                "d": "By filtering and blocking malicious traffic sources."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is it important to keep network systems and software up to date?",
+              "choices": {
+                "a": "To attract more users to the network.",
+                "b": "To increase the complexity of attacks.",
+                "c": "To eliminate the need for network monitoring.",
+                "d": "To patch known vulnerabilities that could be exploited in Amplification Attacks."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "15": {
         "term": "ANN",
-        "definition": "(artificial neural network) In AI, an architecture of input, hidden, and output layers that can perform algorithmic analysis of a dataset to achieve outcome objectives. Also known as neural network."
+        "definition": "(artificial neural network) In AI, an architecture of input, hidden, and output layers that can perform algorithmic analysis of a dataset to achieve outcome objectives. Also known as neural network.",
+        "questions": [
+            {
+              "question": "What is an 'Artificial Neural Network (ANN)' in the context of machine learning?",
+              "choices": {
+                "a": "A type of firewall for network security.",
+                "b": "A method for storing large datasets.",
+                "c": "A set of advanced encryption algorithms.",
+                "d": "A computational model inspired by the human brain's neural structure."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary function of an Artificial Neural Network (ANN)?",
+              "choices": {
+                "a": "To automate system updates.",
+                "b": "To analyze network traffic patterns.",
+                "c": "To encrypt sensitive data.",
+                "d": "To recognize patterns and make predictions based on training data."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Which scenario demonstrates the use of an Artificial Neural Network (ANN)?",
+              "choices": {
+                "a": "Storing log files for future analysis.",
+                "b": "Blocking suspicious network traffic.",
+                "c": "Classifying emails as spam or legitimate.",
+                "d": "Scanning hardware components for vulnerabilities."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is a key characteristic of an Artificial Neural Network (ANN)?",
+              "choices": {
+                "a": "Relying solely on predefined rules.",
+                "b": "Storing large amounts of raw data.",
+                "c": "Adapting and learning from training data.",
+                "d": "Encrypting all incoming network traffic."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How can organizations benefit from implementing Artificial Neural Networks (ANNs)?",
+              "choices": {
+                "a": "By completely eliminating the need for incident response plans.",
+                "b": "By automating all security tasks.",
+                "c": "By recognizing complex patterns and anomalies in data.",
+                "d": "By focusing solely on preventive measures."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is proper training data essential for the effectiveness of an Artificial Neural Network (ANN)?",
+              "choices": {
+                "a": "To increase the complexity of the network.",
+                "b": "To replace the need for network monitoring.",
+                "c": "To ensure a secure connection to the internet.",
+                "d": "To enable the network to make accurate predictions and classifications."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "16": {
+        "lesson": "5",
         "term": "anomaly analysis",
-        "definition": "A network monitoring system that uses a baseline of acceptable outcomes or event patterns to identify events that fall outside the acceptable range. Also known as anomaly-based detection."
+        "definition": "A network monitoring system that uses a baseline of acceptable outcomes or event patterns to identify events that fall outside the acceptable range. Also known as anomaly-based detection.",
+        "questions": [
+            {
+              "question": "What is 'Anomaly Analysis' in the context of cybersecurity?",
+              "choices": {
+                "a": "A process of regular system backups.",
+                "b": "A method for encryption of network traffic.",
+                "c": "A technique to analyze deviations from normal patterns of behavior.",
+                "d": "A type of firewall used for network security."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary goal of Anomaly Analysis?",
+              "choices": {
+                "a": "To eliminate all network anomalies.",
+                "b": "To identify vulnerabilities in software code.",
+                "c": "To detect unusual or potentially malicious activities.",
+                "d": "To encrypt all data transmitted over a network."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of Anomaly Analysis?",
+              "choices": {
+                "a": "Implementing strict access control measures.",
+                "b": "Conducting penetration testing to assess vulnerabilities.",
+                "c": "Identifying unexpected spikes in network traffic.",
+                "d": "Creating secure passwords for user accounts."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the significance of setting baselines in Anomaly Analysis?",
+              "choices": {
+                "a": "To ignore all deviations from normal behavior.",
+                "b": "To identify only the most severe anomalies.",
+                "c": "To establish a reference point for normal behavior.",
+                "d": "To block all incoming network traffic."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does Anomaly Analysis assist in incident detection?",
+              "choices": {
+                "a": "By focusing solely on preventive measures.",
+                "b": "By ignoring all deviations from normal patterns.",
+                "c": "By identifying potential threats based on abnormal behavior.",
+                "d": "By blocking all network traffic except for known sources."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it important to fine-tune Anomaly Analysis systems regularly?",
+              "choices": {
+                "a": "To disable all security measures temporarily.",
+                "b": "To rely solely on predefined rules.",
+                "c": "To ensure that minor deviations are ignored.",
+                "d": "To adapt to changing patterns and threats in the environment."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "17": {
+        "lesson": "9", 
         "term": "anti-tamper",
-        "definition": "Methods that make it difficult for an attacker to alter the authorized execution of software."
+        "definition": "Methods that make it difficult for an attacker to alter the authorized execution of software.",
+        "questions": [
+            {
+              "question": "What is 'Anti-Tamper' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of firewall for network security.",
+                "b": "A method for network traffic analysis.",
+                "c": "A set of encryption algorithms.",
+                "d": "A strategy to protect software and hardware from unauthorized modifications."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary goal of implementing Anti-Tamper measures?",
+              "choices": {
+                "a": "To maximize network speed.",
+                "b": "To encrypt all network traffic.",
+                "c": "To prevent unauthorized modifications to software and hardware.",
+                "d": "To eliminate the need for incident response plans."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of Anti-Tamper techniques?",
+              "choices": {
+                "a": "Installing antivirus software on network devices.",
+                "b": "Detecting and mitigating DDoS attacks.",
+                "c": "Protecting firmware from unauthorized modifications.",
+                "d": "Creating strong passwords for user accounts."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary objective of Anti-Tamper mechanisms in software applications?",
+              "choices": {
+                "a": "To increase the complexity of the user interface.",
+                "b": "To ensure complete software compatibility.",
+                "c": "To prevent software from being accessed by users.",
+                "d": "To make it difficult for attackers to modify the software's code or behavior."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How can organizations benefit from implementing Anti-Tamper measures?",
+              "choices": {
+                "a": "By relying solely on network firewalls.",
+                "b": "By automating all security tasks.",
+                "c": "By protecting critical systems from unauthorized changes.",
+                "d": "By ignoring potential security vulnerabilities."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it important to periodically update and assess Anti-Tamper mechanisms?",
+              "choices": {
+                "a": "To replace the need for network monitoring.",
+                "b": "To ensure that only authorized users can access the network.",
+                "c": "To adapt to evolving attack techniques and vulnerabilities.",
+                "d": "To eliminate the need for incident response procedures."
+              },
+              "answer": "c"
+            }
+        ]
     },
+
     "18": {
+        "lesson": "0",
         "term": "anti-virus scanner",
-        "definition": "Software capable of detecting and removing virus infections and (in most cases) other types of malware, such as worms, Trojans, rootkits, adware, spyware, password crackers, network mappers, DoS tools, and so on."
+        "definition": "Software capable of detecting and removing virus infections and (in most cases) other types of malware, such as worms, Trojans, rootkits, adware, spyware, password crackers, network mappers, DoS tools, and so on.",
+        "questions": [
+            {
+              "question": "What is an 'Anti-Virus Scanner' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of encryption algorithm.",
+                "b": "A method for secure data storage.",
+                "c": "A network intrusion detection system.",
+                "d": "A software tool designed to detect and remove malicious software."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary purpose of an Anti-Virus Scanner?",
+              "choices": {
+                "a": "To secure physical access to buildings.",
+                "b": "To encrypt all network traffic.",
+                "c": "To detect and remove viruses, malware, and other malicious software.",
+                "d": "To manage user authentication and access rights."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of an Anti-Virus Scanner?",
+              "choices": {
+                "a": "Configuring a firewall to restrict network access.",
+                "b": "Identifying unusual patterns in network traffic.",
+                "c": "Detecting unauthorized users attempting to access a system.",
+                "d": "Scanning files for known signatures of viruses and malware."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is a key feature of a reliable Anti-Virus Scanner?",
+              "choices": {
+                "a": "Blocking all incoming network traffic.",
+                "b": "Identifying new and unknown threats without updates.",
+                "c": "Providing access control for user accounts.",
+                "d": "Regularly updating its database of virus signatures."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does an Anti-Virus Scanner contribute to overall cybersecurity?",
+              "choices": {
+                "a": "By focusing solely on preventive measures.",
+                "b": "By automating all security tasks.",
+                "c": "By detecting and removing malicious software to prevent infections.",
+                "d": "By replacing the need for network firewalls."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it important to keep Anti-Virus Scanners up to date?",
+              "choices": {
+                "a": "To replace the need for user authentication.",
+                "b": "To eliminate the need for incident response plans.",
+                "c": "To detect only known threats.",
+                "d": "To identify and mitigate the latest viruses and malware."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "19": {
+        "lesson": "12",
         "term": "API",
-        "definition": "(application programming interface) A library of programming utilities used, for example, to enable software developers to access functions of the TCP/IP network stack under a particular operating system."
+        "definition": "(application programming interface) A library of programming utilities used, for example, to enable software developers to access functions of the TCP/IP network stack under a particular operating system.",
+        "questions": [
+            {
+              "question": "What is an 'Application Programming Interface (API)' in the context of software development?",
+              "choices": {
+                "a": "A graphical user interface (GUI) for software applications.",
+                "b": "A set of hardware components used in network architecture.",
+                "c": "A database management system.",
+                "d": "A set of rules and protocols for building and interacting with software applications."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary purpose of an Application Programming Interface (API)?",
+              "choices": {
+                "a": "To replace the need for user authentication.",
+                "b": "To create virtual environments for software testing.",
+                "c": "To define how software components should interact and communicate.",
+                "d": "To encrypt all data transmitted over a network."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of an Application Programming Interface (API)?",
+              "choices": {
+                "a": "Scanning hardware components for vulnerabilities.",
+                "b": "Designing a new user interface for an application.",
+                "c": "Creating a secure backup of important files.",
+                "d": "Integrating payment processing functionality into an e-commerce website."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is a key advantage of using APIs in software development?",
+              "choices": {
+                "a": "Eliminating the need for software testing.",
+                "b": "Providing a standalone environment for each application.",
+                "c": "Reducing the complexity of software development.",
+                "d": "Enabling developers to leverage pre-built functionalities and services."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How can organizations benefit from utilizing APIs?",
+              "choices": {
+                "a": "By relying solely on network firewalls for security.",
+                "b": "By automating all security tasks.",
+                "c": "By creating custom software solutions without external dependencies.",
+                "d": "By disregarding the need for incident response plans."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it important for developers to carefully manage API keys and access?",
+              "choices": {
+                "a": "To replace the need for network monitoring.",
+                "b": "To ensure compatibility with legacy software.",
+                "c": "To simplify software development processes.",
+                "d": "To prevent unauthorized access and potential security breaches."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "20": {
+        "lesson": "2",
         "term": "ATT&CK",
-        "definition": "(Adversarial Tactics, Techniques, and Common Knowledge) A knowledge base maintained by the MITRE Corporation for listing and explaining specific adversary tactics, techniques, and procedures."
+        "definition": "(Adversarial Tactics, Techniques, and Common Knowledge) A knowledge base maintained by the MITRE Corporation for listing and explaining specific adversary tactics, techniques, and procedures.",
+        "questions": [
+            {
+              "question": "What is 'ATT&CK' in the context of cybersecurity?",
+              "choices": {
+                "a": "An antivirus software tool.",
+                "b": "A network intrusion detection system.",
+                "c": "A database of known cybersecurity vulnerabilities.",
+                "d": "A framework that categorizes and describes adversarial behaviors."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What does 'ATT&CK' stand for?",
+              "choices": {
+                "a": "Advanced Threat Tracking and Classification",
+                "b": "Adaptive Tactics and Techniques for Cyber Knowledge",
+                "c": "Adversarial Tactics, Techniques, and Common Knowledge",
+                "d": "Automated Threat Testing and Cyber Knowledge"
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the use of ATT&CK framework?",
+              "choices": {
+                "a": "Installing network firewalls for perimeter defense.",
+                "b": "Detecting unauthorized access attempts to a server.",
+                "c": "Creating secure passwords for user accounts.",
+                "d": "Mapping out techniques used by cyber adversaries in a recent attack."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is the primary goal of the ATT&CK framework?",
+              "choices": {
+                "a": "To automate software development processes.",
+                "b": "To identify known vulnerabilities in network devices.",
+                "c": "To map and categorize adversarial behaviors and techniques.",
+                "d": "To encrypt all data transmitted over a network."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How does the ATT&CK framework assist in improving cybersecurity?",
+              "choices": {
+                "a": "By providing real-time threat alerts.",
+                "b": "By automating incident response procedures.",
+                "c": "By replacing the need for network monitoring.",
+                "d": "By helping organizations understand and defend against real-world adversary tactics and techniques."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is it important for security professionals to stay updated with the ATT&CK framework?",
+              "choices": {
+                "a": "To eliminate the need for incident response plans.",
+                "b": "To provide detailed technical specifications for software development.",
+                "c": "To focus solely on preventive measures.",
+                "d": "To adapt to evolving adversary behaviors and enhance threat detection capabilities."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "21": {
+        "lesson": "2",
         "term": "APT",
-        "definition": "(advanced persistent threat) An attacker\u2019s ability to obtain, maintain, and diversify access to network systems using exploits and malware. attack surface The points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor."
+        "definition": "(advanced persistent threat) An attacker\u2019s ability to obtain, maintain, and diversify access to network systems using exploits and malware. attack surface The points at which a network or application receives external connections or inputs/outputs that are potential vectors to be exploited by a threat actor.",
+        "questions": [
+            {
+              "question": "What is an 'Advanced Persistent Threat (APT)' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of antivirus software.",
+                "b": "A network intrusion prevention system.",
+                "c": "A long-term targeted cyberattack conducted by skilled adversaries.",
+                "d": "A collection of software vulnerabilities."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary characteristic of an Advanced Persistent Threat (APT) attack?",
+              "choices": {
+                "a": "It lasts only for a short period before detection.",
+                "b": "It primarily targets individual users.",
+                "c": "It is a one-time occurrence.",
+                "d": "It is a prolonged and sophisticated attack carried out by skilled threat actors."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Which scenario demonstrates the nature of an Advanced Persistent Threat (APT)?",
+              "choices": {
+                "a": "An accidental data breach due to a misconfigured server.",
+                "b": "A spam email campaign affecting a large number of users.",
+                "c": "A cyberattack targeting a specific organization's confidential data over an extended period.",
+                "d": "An unauthorized access attempt that is quickly detected and thwarted."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary goal of an Advanced Persistent Threat (APT) attacker?",
+              "choices": {
+                "a": "To cause widespread system outages.",
+                "b": "To focus solely on random targets.",
+                "c": "To quickly exploit known vulnerabilities.",
+                "d": "To maintain unauthorized access and gather sensitive information over a long period."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How does an organization defend against Advanced Persistent Threat (APT) attacks?",
+              "choices": {
+                "a": "By relying solely on network firewalls.",
+                "b": "By performing periodic software updates.",
+                "c": "By ignoring potential vulnerabilities.",
+                "d": "By implementing robust security measures, monitoring, and incident response plans."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why are Advanced Persistent Threat (APT) attacks considered challenging to detect and mitigate?",
+              "choices": {
+                "a": "Because they only target large organizations.",
+                "b": "Because they only use known attack techniques.",
+                "c": "Because they are short-lived and easily identified.",
+                "d": "Because they are well-funded, patient, and use sophisticated tactics to evade detection."
+              },
+              "answer": "d"
+            }
+        ]
     },
+
     "22": {
+        "lesson": "11",
         "term": "Arachni",
-        "definition": "An open-source web application scanner."
+        "definition": "An open-source web application scanner.",
+        "questions": [
+            {
+              "question": "What is 'Arachni' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of malware.",
+                "b": "A network intrusion detection system.",
+                "c": "A vulnerability assessment and penetration testing tool.",
+                "d": "A hardware security module."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary purpose of the Arachni tool?",
+              "choices": {
+                "a": "To create malicious software.",
+                "b": "To automate system backups.",
+                "c": "To analyze network traffic patterns.",
+                "d": "To identify vulnerabilities and security weaknesses in web applications."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Which scenario demonstrates the use of the Arachni tool?",
+              "choices": {
+                "a": "Monitoring network traffic for unauthorized access.",
+                "b": "Detecting and mitigating DDoS attacks.",
+                "c": "Scanning a web application for potential security vulnerabilities.",
+                "d": "Analyzing software code for syntax errors."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the key benefit of using the Arachni tool for cybersecurity professionals?",
+              "choices": {
+                "a": "Automating all security tasks.",
+                "b": "Providing real-time threat alerts.",
+                "c": "Analyzing network infrastructure vulnerabilities.",
+                "d": "Identifying vulnerabilities and potential entry points in web applications."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "How can organizations utilize the results obtained from Arachni scans?",
+              "choices": {
+                "a": "By ignoring potential vulnerabilities.",
+                "b": "By focusing solely on network monitoring.",
+                "c": "By incorporating findings into remediation strategies.",
+                "d": "By using them to replace the need for firewall protection."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Why is it important to regularly perform vulnerability assessments using tools like Arachni?",
+              "choices": {
+                "a": "To ensure complete software compatibility.",
+                "b": "To eliminate the need for incident response plans.",
+                "c": "To replace the need for network intrusion detection.",
+                "d": "To identify and address potential security weaknesses in a timely manner."
+              },
+              "answer": "d"
+            }
+        ]
     },
     "23": {
+        "lesson": "2",
         "term": "attack vector",
         "definition": "A specific path by which a threat actor gains unauthorized access to a system."
+        "questions": [
+            {
+              "question": "What is an 'Attack Vector' in the context of cybersecurity?",
+              "choices": {
+                "a": "A type of firewall for network security.",
+                "b": "A set of encryption algorithms.",
+                "c": "A method used to gain unauthorized access to a system or network.",
+                "d": "A technique for network traffic analysis."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "What is the primary purpose of identifying attack vectors?",
+              "choices": {
+                "a": "To create malicious software.",
+                "b": "To automate system backups.",
+                "c": "To identify potential vulnerabilities that attackers may exploit.",
+                "d": "To monitor network traffic patterns."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "Which scenario demonstrates the concept of an attack vector?",
+              "choices": {
+                "a": "Detecting unauthorized access attempts on a server.",
+                "b": "Scanning a web application for security vulnerabilities.",
+                "c": "Monitoring email traffic for spam messages.",
+                "d": "Exploiting a software vulnerability to gain control of a system."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "What is a common example of an attack vector?",
+              "choices": {
+                "a": "Creating strong passwords for user accounts.",
+                "b": "Analyzing network traffic patterns.",
+                "c": "Sending phishing emails with malicious attachments.",
+                "d": "Automating system updates."
+              },
+              "answer": "c"
+            },
+            {
+              "question": "How can organizations defend against potential attack vectors?",
+              "choices": {
+                "a": "By replacing the need for network firewalls.",
+                "b": "By automating all security tasks.",
+                "c": "By focusing solely on known vulnerabilities.",
+                "d": "By implementing robust security measures, staying updated, and conducting regular security assessments."
+              },
+              "answer": "d"
+            },
+            {
+              "question": "Why is understanding different attack vectors important for cybersecurity professionals?",
+              "choices": {
+                "a": "To eliminate the need for incident response plans.",
+                "b": "To ensure compatibility with legacy software.",
+                "c": "To provide real-time threat alerts.",
+                "d": "To anticipate potential entry points and vulnerabilities that attackers may exploit."
+              },
+              "answer": "d"
+            }
+        ]
     },
     "24": {
         "term": "arbitrary code execution",
