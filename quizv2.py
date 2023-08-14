@@ -1,9 +1,14 @@
+import requests
 import json
 import random
 
+# Fetch the JSON data from the URL
+url = "https://raw.githubusercontent.com/rbcommoncents/CySa_Practice/main/Glossary.json"
+response = requests.get(url)
+data = response.json()
 
-with open("Glossary.json", "r") as json_file:
-    quiz_data = json.load(json_file)
+# Extract quiz data from the JSON
+quiz_data = data
 
 def generate_quiz_session(quiz_data, num_questions):
     # Create a list to store the selected questions
@@ -43,5 +48,3 @@ def present_quiz_session(quiz_session):
 num_questions_in_quiz = 10  # You can set the desired number of questions in each quiz
 quiz_session = generate_quiz_session(quiz_data, num_questions_in_quiz)
 present_quiz_session(quiz_session)
-
-
