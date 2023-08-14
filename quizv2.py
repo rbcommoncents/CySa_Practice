@@ -1,6 +1,6 @@
 import json
 import random
-import re
+
 
 with open("Glossary.json", "r") as json_file:
     quiz_data = json.load(json_file)
