@@ -1,1093 +1,1094 @@
-{"1":{ 
-  "lesson": "1",
-  "questions": [
-    {
-      "question": "What phase is used to identify goals and allocate resources for security intelligence implementation?",
-      "options": [
-        "a) Collection phase",
-        "b) Dissemination phase",
-        "c) Feedback phase",
-        "d) Requirements (or planning and direction) phase"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What are potential sources of security intelligence within an organization?",
-      "options": [
-        "a) Physical security systems",
-        "b) Inventory management software",
-        "c) Log and monitoring systems",
-        "d) Social media platforms"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when identifying threat intelligence sources?",
-      "options": [
-        "a) Choosing any available source",
-        "b) Prioritizing commercial sources only",
-        "c) Considering open-source, commercial, and community providers",
-        "d) Ignoring threat intelligence sources"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What components are deployed in the collection phase of security intelligence?",
-      "options": [
-        "a) Security personnel only",
-        "b) Data processing units",
-        "c) Management software, storage systems, connectors, and agents",
-        "d) Physical security measures"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of developing use cases in security intelligence?",
-      "options": [
-        "a) Creating reports for executives",
-        "b) Implementing encryption algorithms",
-        "c) Supporting analysis of collected and processed data",
-        "d) Managing physical security controls"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "Which phase involves producing reports, alerts, and data feeds targeted for different groups?",
-      "options": [
-        "a) Collection phase",
-        "b) Feedback phase",
-        "c) Dissemination phase",
-        "d) Requirements phase"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of the feedback phase in the security intelligence cycle?",
-      "options": [
-        "a) Disseminate reports to external parties",
-        "b) Refresh policies and procedures only",
-        "c) Appraise the system and update policies, procedures, technologies, and sources",
-        "d) Identify sources of security intelligence"
-      ],
-      "correct_answer": "c"
-    }
-  ]
-},
-"2": {
-  "lesson": "2",
-  "questions": [
-    {
-      "question": "What is a purpose of developing a threat actor profiling system?",
-      "options": [
-        "a) Monitoring network latency",
-        "b) Identifying server vulnerabilities",
-        "c) Profiling employee behavior",
-        "d) Modeling attack tactics and understanding adversary behavior"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "Which platform automates the sharing of Indicators of Compromise (IoCs) using STIX or OpenIOC formats?",
-      "options": [
-        "a) Risk assessment platform",
-        "b) Threat modeling system",
-        "c) Threat intelligence platform",
-        "d) Attack surface analysis tool"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of creating templates for threat modeling?",
-      "options": [
-        "a) Developing network architectures",
-        "b) Analyzing user behavior",
-        "c) Assessing adversary capability",
-        "d) Designing security policies"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What does a risk assessment aim to discover in the context of modeling attacks?",
-      "options": [
-        "a) Attacker's physical location",
-        "b) Attack surface of the network or application",
-        "c) Encryption keys",
-        "d) User login credentials"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "What is a key consideration when analyzing the attack surface to determine possible attack vectors?",
-      "options": [
-        "a) Maximizing attack surface",
-        "b) Ignoring adversary capability",
-        "c) Exploiting vulnerabilities",
-        "d) Using understanding of adversary capability"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What role do risk assessments play in the threat modeling process?",
-      "options": [
-        "a) Selecting color codes for threat levels",
-        "b) Identifying threat actor profiles",
-        "c) Determining impact and likelihood of threats",
-        "d) Encrypting sensitive data"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is a proactive threat hunting tactic?",
-      "options": [
-        "a) Reviewing incident reports",
-        "b) Identifying physical vulnerabilities",
-        "c) Reacting to live attacks",
-        "d) Developing hypotheses for threat infiltration"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What should be done with outcomes from threat hunting to improve security systems?",
-      "options": [
-        "a) Expanding the attack surface",
-        "b) Implementing fewer security measures",
-        "c) Identifying counterintelligence measures",
-        "d) Reducing attack surface and blocking attack vectors"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "Why is integrating security monitoring information with threat intelligence important?",
-      "options": [
-        "a) To increase network latency",
-        "b) To maximize the attack surface",
-        "c) To reduce security incidents",
-        "d) To improve detection and response capabilities"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What does OSINT stand for and how is it used?",
-      "options": [
-        "a) Online System Intrusion and Neutralization Technique; used for encryption",
-        "b) Open Source Intelligence; used for threat hunting",
-        "c) Operational System Integration and Network Troubleshooting; used for audits",
-        "d) Outer Security Interface and Network Targeting; used for intrusion detection"
-      ],
-      "correct_answer": "b"
-    }
-  ]
-},
-"3": 
-  "lesson": "3",
-  "questions": [
-    {
-      "question": "What are appropriate sources for network monitoring to analyze network traffic?",
-      "options": [
-        "a) Social media platforms",
-        "b) VPN servers",
-        "c) Flow endpoints for traffic analysis and packet capture sniffers",
-        "d) DNS host names"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "How can threat intelligence be used for correlation in network monitoring?",
-      "options": [
-        "a) Blocking all IP addresses and DNS host names",
-        "b) Correlating irrelevant data",
-        "c) Identifying IP addresses and DNS host names with bad reputations",
-        "d) Deleting all log data"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What technique can be used to identify suspicious URL usage in network monitoring?",
-      "options": [
-        "a) Sniffing network traffic",
-        "b) Using manual analysis",
-        "c) Percent encoding",
-        "d) Capturing screenshots"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What type of data should be collected and normalized from firewalls, proxies, WAFs, and IDS/IPS for effective security monitoring?",
-      "options": [
-        "a) User authentication data",
-        "b) Hardware configuration details",
-        "c) Log data",
-        "d) Network diagram"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of creating baselines for known good processes on each type of host?",
-      "options": [
-        "a) Identifying phishing emails",
-        "b) Analyzing user behavior",
-        "c) Preventing network attacks",
-        "d) Identifying suspicious anomalous behavior"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can outbound firewall policies mitigate the threat from malware?",
-      "options": [
-        "a) Blocking all network traffic",
-        "b) Blocking incoming traffic only",
-        "c) Blocking all malware",
-        "d) Blocking malware using Command & Control (C&C) channels and data exfiltration"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What is the purpose of tuning rules and signatures for WAFs and IDS/IPS?",
-      "options": [
-        "a) Increasing network latency",
-        "b) Slowing down network traffic",
-        "c) Blocking all network traffic",
-        "d) Adapting to newly discovered threats"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can port security and NAC prevent unauthorized devices from connecting to the network?",
-      "options": [
-        "a) Disabling all network ports",
-        "b) Allowing unrestricted access for devices",
-        "c) Using firewalls only",
-        "d) Preventing rogue devices from connecting"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What is the purpose of configuring email domain authentication (SPF, DKIM, DMARC)?",
-      "options": [
-        "a) Blocking all incoming email",
-        "b) Slowing down email delivery",
-        "c) Ensuring outgoing email can be authenticated by recipients",
-        "d) Encrypting all email messages"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What service allows users to send confidential information by email?",
-      "options": [
-        "a) FTP",
-        "b) SMTP",
-        "c) HTTP",
-        "d) S/MIME (message encryption and digital signatures)"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-},
-"4":{
-  "lesson": "4",
-  "questions": [
-    {
-      "question": "What are use cases for filtering and querying security data in a SIEM?",
-      "options": [
-        "a) Creating new user accounts",
-        "b) Analyzing weather patterns",
-        "c) Providing alerting about threats relevant to the organization",
-        "d) Monitoring network latency"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when configuring the SIEM or manual collection methods?",
-      "options": [
-        "a) Configuring new hardware devices",
-        "b) Changing network protocols",
-        "c) Normalizing security data and considering standard fields and date/time formats",
-        "d) Installing new operating systems"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of ensuring logs are stored within a secure architecture with appropriate access permissions and tamper protection?",
-      "options": [
-        "a) To maximize log storage",
-        "b) To encourage unauthorized access",
-        "c) To provide easy access to logs for all employees",
-        "d) To protect logs from unauthorized modification and access"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What do dashboards configured in a SIEM provide for analysts and department managers?",
-      "options": [
-        "a) Weather forecasts",
-        "b) Entertainment content",
-        "c) Status information for department managers and executives",
-        "d) Automated threat detection"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What methods are used for querying and filtering data to produce alerts in security analysis?",
-      "options": [
-        "a) Analyzing financial data",
-        "b) Creating new network protocols",
-        "c) Conditional, heuristic, behavioral, and anomaly-based methods",
-        "d) Designing new computer software"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What tools are used for manual analysis of security data?",
-      "options": [
-        "a) Social media platforms",
-        "b) Command-line tools like grep, cut, and sort",
-        "c) Machine learning algorithms",
-        "d) Physical security measures"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "What is the purpose of using scripts to automate detection functions not supported by a SIEM?",
-      "options": [
-        "a) Reducing network traffic",
-        "b) Increasing false positives",
-        "c) Monitoring network latency",
-        "d) Automating threat detection processes"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-},
-"5":{
-  "lesson": "5",
-  "questions": [
-    {
-      "question": "What obligations should be addressed in documented procedures for forensics?",
-      "options": [
-        "a) Tracking employee attendance",
-        "b) Identifying network vulnerabilities",
-        "c) Legal hold, guidelines for working with external analysts, and work product retention",
-        "d) Setting up firewalls"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What resources should be provisioned for an internal analyst team to perform forensics?",
-      "options": [
-        "a) Paper and pens",
-        "b) High-capacity workstations without forensic software",
-        "c) Workstations with forensic tools for memory and file system analysis, file carving, and timeline reconstruction",
-        "d) Virtual reality headsets"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when creating documented procedures for evidence acquisition?",
-      "options": [
-        "a) Ignoring order of volatility",
-        "b) Using any available checksums",
-        "c) Paying attention to chain of custody, but not integrity checksums",
-        "d) Considering order of volatility, integrity checksums, and chain of custody"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What types of indicators should use cases and detection playbooks cover for network-related scenarios?",
-      "options": [
-        "a) Weather patterns",
-        "b) Network architecture",
-        "c) Bandwidth consumption, data exfiltration, and common protocols",
-        "d) Customer complaints"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What type of indicators should use cases and detection playbooks cover for host-related scenarios?",
-      "options": [
-        "a) Corporate meetings",
-        "b) User logins",
-        "c) Processor/memory/disk consumption, unauthorized privilege use, and file system changes",
-        "d) Software installation procedures"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What type of indicators should use cases and detection playbooks cover for application-related scenarios?",
-      "options": [
-        "a) Physical security measures",
-        "b) Employee attendance records",
-        "c) Anomalous activity, unexpected output, and service interruption",
-        "d) Inventory management"
-      ],
-      "correct_answer": "c"
-    }
-  ]
-},
-"6": {
-  "lesson": "6",
-  "questions": [
-    {
-      "question": "What is the purpose of the preparation phase in incident response?",
-      "options": [
-        "a) Resolving incidents",
-        "b) Documenting network architecture",
-        "c) Developing resources and procedures for incident response",
-        "d) Creating communication plans"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What documents should be created to document incident response procedures?",
-      "options": [
-        "a) Employee schedules",
-        "b) Network diagrams",
-        "c) Incident response plan, call list, and incident form",
-        "d) Financial reports"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "When should incident criticality be elevated?",
-      "options": [
-        "a) When there are no security vulnerabilities",
-        "b) When sensitive data is not threatened",
-        "c) When confidential and private data is threatened",
-        "d) When physical security measures are in place"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should a communication plan include in incident response?",
-      "options": [
-        "a) Sharing incident details with the public",
-        "b) Encrypting all communications",
-        "c) Releasing incident details to trusted parties when appropriate, using secure channels",
-        "d) Keeping all communication internal"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of developing programs for training and testing in incident response?",
-      "options": [
-        "a) Increasing network traffic",
-        "b) Improving employee attendance",
-        "c) Proving the effectiveness of incident response processes",
-        "d) Automating all incident response procedures"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be included in documented courses of action, incident playbooks, and detection templates?",
-      "options": [
-        "a) Physical security measures",
-        "b) Weather forecasts",
-        "c) Impact analysis and criticality indicators",
-        "d) Customer complaints"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of establishing clear objectives and tools for containment in incident response?",
-      "options": [
-        "a) Increasing network traffic",
-        "b) Blocking all communications",
-        "c) Preventing future incidents",
-        "d) Applying isolation- or segmentation-based containment"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What tools are used for eradication and recovery in incident response?",
-      "options": [
-        "a) Social media platforms",
-        "b) Analyzing financial data",
-        "c) Sanitizing media and using images, templates, backup data, and configuration information",
-        "d) Employee attendance records"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of the post-incident phase in incident response?",
-      "options": [
-        "a) Preparing for incidents",
-        "b) Resolving incidents only",
-        "c) Evaluating and improving response procedures and resources",
-        "d) Ignoring incident details"
-      ],
-      "correct_answer": "c"
-    }
-  ]
-},
-"7":{
-  "lesson": "7",
-  "questions": [
-    {
-      "question": "What is the purpose of establishing a risk management framework supported at the highest levels of the organization?",
-      "options": [
-        "a) Maximizing network traffic",
-        "b) Encouraging unauthorized access",
-        "c) Setting policies and procedures for risk assessment and monitoring",
-        "d) Ignoring compliance requirements"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of performing a systems assessment in the risk assessment process?",
-      "options": [
-        "a) Analyzing financial data",
-        "b) Documenting workflows and procedures",
-        "c) Developing new software",
-        "d) Blocking network traffic"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "How are risk assessment scenarios identified?",
-      "options": [
-        "a) Using random scenarios",
-        "b) Based on historical data only",
-        "c) Based on known and predicted threats and vulnerabilities",
-        "d) Ignoring known threats and vulnerabilities"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of prioritizing risk mitigation and selecting security controls?",
-      "options": [
-        "a) Increasing network latency",
-        "b) Encouraging unauthorized access",
-        "c) Accounting for engineering trade-offs and reducing security measures",
-        "d) Enhancing security while considering risk factors"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What is the purpose of developing training and testing programs in the risk assessment process?",
-      "options": [
-        "a) Blocking all network traffic",
-        "b) Encouraging unauthorized access",
-        "c) Proving the effectiveness of risk mitigation strategies",
-        "d) Ignoring risk factors"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of using internal assessments to monitor risk mitigation procedures?",
-      "options": [
-        "a) Encouraging unauthorized access",
-        "b) Blocking all network traffic",
-        "c) Validating and updating risk mitigation procedures",
-        "d) Ignoring risk factors"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when instituting a program of continuous monitoring?",
-      "options": [
-        "a) Ignoring risk factors",
-        "b) Blocking network traffic",
-        "c) Encouraging unauthorized access",
-        "d) Proactively responding to risks through continuous monitoring"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-},
-"8": {
-  "lesson": "8",
-  "questions": [
-    {
-      "question": "What is the purpose of using enumeration tools like Nmap and hping in network security?",
-      "options": [
-        "a) Increasing network traffic",
-        "b) Validating wireless security",
-        "c) Monitoring network latency",
-        "d) Mapping network hosts and services"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What are wireless assessment tools such as Aircrack-ng, Reaver, and Hashcat used for?",
-      "options": [
-        "a) Mapping network hosts",
-        "b) Increasing network latency",
-        "c) Validating security mechanisms in wireless networks",
-        "d) Monitoring network traffic"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of defining policies and procedures/workflows for vulnerability scanning?",
-      "options": [
-        "a) Increasing network traffic",
-        "b) Automating wireless assessment",
-        "c) Reducing network attack surface",
-        "d) Validating security mechanisms"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "How should scanning options be identified for discrete scopes in vulnerability assessment?",
-      "options": [
-        "a) Using the same scan settings for all scopes",
-        "b) Ignoring compliance factors",
-        "c) Applying appropriate scan sensitivity and scheduling based on scope",
-        "d) Using random scan settings"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "When configuring agent-based or sensor-based scans, what should be taken into account?",
-      "options": [
-        "a) Avoiding all credentialed scans",
-        "b) Ignoring segmentation and security device issues",
-        "c) Risk to hosts and service availability from scanning activity",
-        "d) Using all scanning options available"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "Why should the assessment engine be updated regularly with vulnerability feed data?",
-      "options": [
-        "a) Maximizing network traffic",
-        "b) Avoiding vulnerability scans",
-        "c) Using outdated vulnerability data",
-        "d) Maintaining accuracy and relevance of scan results"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What is the purpose of analyzing vulnerability scan reports?",
-      "options": [
-        "a) Ignoring scan results",
-        "b) Prioritizing remediation actions based on CVSS metrics",
-        "c) Creating false positives and false negatives",
-        "d) Reducing network attack surface"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "What considerations should be taken into account when remediating findings from vulnerability scan reports?",
-      "options": [
-        "a) Ignoring remediation actions",
-        "b) Considering only organizational governance",
-        "c) Validating findings and considering inhibitors to remediation",
-        "d) Increasing the attack surface"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of using change control and configuration baselines in host hardening and patching?",
-      "options": [
-        "a) Ignoring host hardening and patching",
-        "b) Increasing network traffic",
-        "c) Maximizing network latency",
-        "d) Performing controlled and organized host improvements"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-},
-"9": {
-  "lesson": "9",
-  "questions": [
-    {
-      "question": "What is the purpose of identity and access management procedures?",
-      "options": [
-        "a) Maximizing network traffic",
-        "b) Managing network architecture",
-        "c) Monitoring system performance",
-        "d) Managing accounts and privileges"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can audit logs be utilized in identity and access management?",
-      "options": [
-        "a) Ignoring audit logs",
-        "b) Enhancing system performance",
-        "c) Tuning audit logs to monitor account and privilege usage",
-        "d) Reducing network traffic"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of considering access control models like DAC, MAC, RBAC, and ABAC?",
-      "options": [
-        "a) Maximizing network traffic",
-        "b) Choosing a random access control model",
-        "c) Applying a suitable access control model for a given system",
-        "d) Increasing system complexity"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of using password policies and training in identity and access management?",
-      "options": [
-        "a) Ignoring password security",
-        "b) Increasing network traffic",
-        "c) Helping users manage passwords effectively",
-        "d) Bypassing authentication"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What technologies can be considered to enhance log-on security?",
-      "options": [
-        "a) Ignoring log-on security",
-        "b) Deploying only password policies",
-        "c) Using SSO, MFA, certificate-based authentication, and federation",
-        "d) Increasing network latency"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "How do code of conduct and acceptable use policies guide user behavior?",
-      "options": [
-        "a) Increasing network traffic",
-        "b) Monitoring system performance",
-        "c) Providing a basis for sanctioning noncompliant behavior",
-        "d) Enhancing network latency"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of having documented change management processes?",
-      "options": [
-        "a) Ignoring network changes",
-        "b) Maximizing network traffic",
-        "c) Ensuring network stability",
-        "d) Managing moves, adds, and changes to network assets"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What is the purpose of evaluating possible changes to network architecture following incidents?",
-      "options": [
-        "a) Ignoring network architecture",
-        "b) Enhancing network performance",
-        "c) Considering options for physical and logical segmentation and automation technologies",
-        "d) Reducing system complexity"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when adopting active defense tactics?",
-      "options": [
-        "a) Ignoring potential legal and reputational impacts",
-        "b) Maximizing network traffic",
-        "c) Applying all defense tactics at once",
-        "d) Resolving incidents without any consideration"
-      ],
-      "correct_answer": "a"
-    },
-    {
-      "question": "What is the purpose of supply chain assessment and using technologies to ensure a secure processing environment?",
-      "options": [
-        "a) Ignoring supply chain assessment",
-        "b) Maximizing network latency",
-        "c) Reducing system complexity",
-        "d) Ensuring a secure environment through supply chain assessment and hardware trust"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "Why is it important to develop policies, training, and tools to manage specialized systems?",
-      "options": [
-        "a) Ignoring specialized systems",
-        "b) Enhancing general system performance",
-        "c) Managing specialized systems including mobile, IoT, ICS/SCADA, and BAS/PACS",
-        "d) Increasing network traffic"
-      ],
-      "correct_answer": "c"
-    }
-  ]
-},
-"10":{
-  "lesson": "10",
-  "questions": [
-    {
-      "question": "What's the first step in establishing data governance?",
-      "options": [
-        "a) Reviewing legal requirements",
-        "b) Developing encryption techniques",
-        "c) Creating access controls",
-        "d) Starting with data classification policies"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What's the purpose of roles in data governance?",
-      "options": [
-        "a) Ignoring role assignments",
-        "b) Focusing on data classification only",
-        "c) Representing data ownership and stewardship",
-        "d) Focusing solely on encryption"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What's reviewed in terms of legal requirements for data processing?",
-      "options": [
-        "a) Ignoring legal aspects",
-        "b) Developing encryption techniques",
-        "c) Reviewing data collection methods",
-        "d) Purpose limitation and data minimization"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How is compliance with data policies enforced?",
-      "options": [
-        "a) Ignoring compliance",
-        "b) Applying encryption to all data",
-        "c) Using NDAs and Data Sharing Agreements",
-        "d) Encrypting data in motion only"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What's configured in data processing and storage systems to protect data?",
-      "options": [
-        "a) Data duplication",
-        "b) Encrypting all data",
-        "c) Increasing network traffic",
-        "d) Access controls and necessary encryption"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What can a DLP solution automate?",
-      "options": [
-        "a) Developing encryption techniques",
-        "b) Ignoring data discovery",
-        "c) Protecting data from internal threats",
-        "d) Discovering, classifying, and managing data assets"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What's the purpose of using a DRM or watermarking solution?",
-      "options": [
-        "a) Ignoring copyright protection",
-        "b) Developing data retention policies",
-        "c) Protecting data from external threats",
-        "d) Protecting copyright in digital assets"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-},
-"11":{
-  "lesson": "11",
-  "questions": [
-    {
-      "question": "How should security development be incorporated into the SDLC?",
-      "options": [
-        "a) Ignore SDLC security",
-        "b) Prioritize rapid development",
-        "c) Follow secure coding practices",
-        "d) Focus on efficient deployment"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What types of vulnerabilities should be reviewed in code?",
-      "options": [
-        "a) Hardware issues",
-        "b) UI design flaws",
-        "c) Network weaknesses",
-        "d) Overflow and race conditions"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can code mitigate risks of remote code execution or data exposure?",
-      "options": [
-        "a) Omit error handling",
-        "b) Use robust error handling",
-        "c) Neglect risks",
-        "d) Eliminate error messages"
-      ],
-      "correct_answer": "b"
-    },
-    {
-      "question": "What development resources should be reviewed for security?",
-      "options": [
-        "a) Ignore all resources",
-        "b) Review design documents",
-        "c) Examine code, libraries",
-        "d) Focus on new code only"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "How can security assessments be incorporated into the deployment phase?",
-      "options": [
-        "a) Skip deployment security",
-        "b) Review platforms only",
-        "c) Integrate assessments into deployment",
-        "d) Concentrate on coding solely"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should best practice advice for specific deployment platforms cover?",
-      "options": [
-        "a) Focus on web apps",
-        "b) Ignore platforms",
-        "c) Cover all phases",
-        "d) Follow advice for various platforms"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can coding techniques mitigate risks from directory traversal, XSS, and SQL injection?",
-      "options": [
-        "a) Avoid user input",
-        "b) Use encryption",
-        "c) Implement input validation, output encoding, queries",
-        "d) Ignore input validation"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What risks should authentication best practices mitigate?",
-      "options": [
-        "a) Physical risks",
-        "b) Network threats",
-        "c) Performance risks",
-        "d) Password weakness, hijacking"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "How can risks from session management and XSRF be mitigated?",
-      "options": [
-        "a) Ignore session risks",
-        "b) Use non-predictable tokens",
-        "c) Rely on cryptography",
-        "d) Use cryptography, tokens, authorization"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What resources should be provisioned to validate app security?",
-      "options": [
-        "a) Ignore validation",
-        "b) Provide many resources",
-        "c) Include analysis, stress testers, scanners",
-        "d) Rely on code review solely"
-      ],
-      "correct_answer": "c"
-    }
-  ]
-},
-"12":{
-  "lesson": "12",
-  "questions": [
-    {
-      "question": "What should procurement policies identify in relation to cloud deployment?",
-      "options": [
-        "a) Ignore cloud deployment risks",
-        "b) Only consider public cloud deployment risks",
-        "c) Identify risks for various cloud deployment types and service models",
-        "d) Prioritize hybrid cloud deployment risks"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should be considered when deploying cloud solutions with a need for networking control?",
-      "options": [
-        "a) Ignore networking considerations",
-        "b) Prioritize public cloud solutions",
-        "c) Consider using a VPC for networking control",
-        "d) Rely solely on cloud provider's networking"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What should you consider when deploying security technologies in the cloud?",
-      "options": [
-        "a) Avoid cloud-hosted solutions",
-        "b) Use on-premises solutions exclusively",
-        "c) Consider using cloud-hosted solutions for security technologies",
-        "d) Only consider using cloud solutions for non-security technologies"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is the purpose of a CASB solution?",
-      "options": [
-        "a) Manage cloud-based servers",
-        "b) Secure cloud data centers",
-        "c) Monitor cloud network traffic only",
-        "d) Ensure secure connections to cloud services by employee devices"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What benefits can SOA, microservices, and serverless architectures offer?",
-      "options": [
-        "a) No benefits, just added complexity",
-        "b) Streamlined networking only",
-        "c) Improved security",
-        "d) Benefits of flexibility and scalability"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What should be included in a management plan for cloud services?",
-      "options": [
-        "a) Only deployment strategies",
-        "b) Consideration for cloud provider responsibilities",
-        "c) Mitigation strategies for improper API usage only",
-        "d) Mitigation strategies for various risks including insecure API usage and unprotected storage"
-      ],
-      "correct_answer": "d"
-    },
-    {
-      "question": "What can vulnerability assessment tools like ScoutSuite and Prowler be used for?",
-      "options": [
-        "a) Test cloud infrastructure's user interface",
-        "b) Test network connectivity only",
-        "c) Perform automated testing of cloud infrastructure settings and configuration",
-        "d) Test cloud service uptime"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What issues related to incident response and forensics investigation should be considered for cloud deployments?",
-      "options": [
-        "a) Ignore these issues in cloud environments",
-        "b) Focus solely on access control",
-        "c) Consider ephemeral instances and access to evidence",
-        "d) Consider only traditional evidence handling methods"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is DevSecOps in relation to IT operations?",
-      "options": [
-        "a) A programming language",
-        "b) An Agile methodology",
-        "c) Applying Agile continuous integration/delivery/deployment principles to IT operations",
-        "d) Focusing solely on development practices"
-      ],
-      "correct_answer": "c"
-    },
-    {
-      "question": "What is a potential application of machine learning in security analysis?",
-      "options": [
-        "a) Solely for improving network performance",
-        "b) Only for automating malware detection",
-        "c) Only for enhancing compliance",
-        "d) Improving security analysis capability through data enrichment, threat feed combination, and more"
-      ],
-      "correct_answer": "d"
-    }
-  ]
-}
+{
+  "1":{ 
+    "lesson": "1",
+    "questions": [
+      {
+        "question": "What phase is used to identify goals and allocate resources for security intelligence implementation?",
+        "options": [
+          "a) Collection phase",
+          "b) Dissemination phase",
+          "c) Feedback phase",
+          "d) Requirements (or planning and direction) phase"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What are potential sources of security intelligence within an organization?",
+        "options": [
+          "a) Physical security systems",
+          "b) Inventory management software",
+          "c) Log and monitoring systems",
+          "d) Social media platforms"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when identifying threat intelligence sources?",
+        "options": [
+          "a) Choosing any available source",
+          "b) Prioritizing commercial sources only",
+          "c) Considering open-source, commercial, and community providers",
+          "d) Ignoring threat intelligence sources"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What components are deployed in the collection phase of security intelligence?",
+        "options": [
+          "a) Security personnel only",
+          "b) Data processing units",
+          "c) Management software, storage systems, connectors, and agents",
+          "d) Physical security measures"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of developing use cases in security intelligence?",
+        "options": [
+          "a) Creating reports for executives",
+          "b) Implementing encryption algorithms",
+          "c) Supporting analysis of collected and processed data",
+          "d) Managing physical security controls"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "Which phase involves producing reports, alerts, and data feeds targeted for different groups?",
+        "options": [
+          "a) Collection phase",
+          "b) Feedback phase",
+          "c) Dissemination phase",
+          "d) Requirements phase"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of the feedback phase in the security intelligence cycle?",
+        "options": [
+          "a) Disseminate reports to external parties",
+          "b) Refresh policies and procedures only",
+          "c) Appraise the system and update policies, procedures, technologies, and sources",
+          "d) Identify sources of security intelligence"
+        ],
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "2": {
+    "lesson": "2",
+    "questions": [
+      {
+        "question": "What is a purpose of developing a threat actor profiling system?",
+        "options": [
+          "a) Monitoring network latency",
+          "b) Identifying server vulnerabilities",
+          "c) Profiling employee behavior",
+          "d) Modeling attack tactics and understanding adversary behavior"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "Which platform automates the sharing of Indicators of Compromise (IoCs) using STIX or OpenIOC formats?",
+        "options": [
+          "a) Risk assessment platform",
+          "b) Threat modeling system",
+          "c) Threat intelligence platform",
+          "d) Attack surface analysis tool"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of creating templates for threat modeling?",
+        "options": [
+          "a) Developing network architectures",
+          "b) Analyzing user behavior",
+          "c) Assessing adversary capability",
+          "d) Designing security policies"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What does a risk assessment aim to discover in the context of modeling attacks?",
+        "options": [
+          "a) Attacker's physical location",
+          "b) Attack surface of the network or application",
+          "c) Encryption keys",
+          "d) User login credentials"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is a key consideration when analyzing the attack surface to determine possible attack vectors?",
+        "options": [
+          "a) Maximizing attack surface",
+          "b) Ignoring adversary capability",
+          "c) Exploiting vulnerabilities",
+          "d) Using understanding of adversary capability"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What role do risk assessments play in the threat modeling process?",
+        "options": [
+          "a) Selecting color codes for threat levels",
+          "b) Identifying threat actor profiles",
+          "c) Determining impact and likelihood of threats",
+          "d) Encrypting sensitive data"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is a proactive threat hunting tactic?",
+        "options": [
+          "a) Reviewing incident reports",
+          "b) Identifying physical vulnerabilities",
+          "c) Reacting to live attacks",
+          "d) Developing hypotheses for threat infiltration"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What should be done with outcomes from threat hunting to improve security systems?",
+        "options": [
+          "a) Expanding the attack surface",
+          "b) Implementing fewer security measures",
+          "c) Identifying counterintelligence measures",
+          "d) Reducing attack surface and blocking attack vectors"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "Why is integrating security monitoring information with threat intelligence important?",
+        "options": [
+          "a) To increase network latency",
+          "b) To maximize the attack surface",
+          "c) To reduce security incidents",
+          "d) To improve detection and response capabilities"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What does OSINT stand for and how is it used?",
+        "options": [
+          "a) Online System Intrusion and Neutralization Technique; used for encryption",
+          "b) Open Source Intelligence; used for threat hunting",
+          "c) Operational System Integration and Network Troubleshooting; used for audits",
+          "d) Outer Security Interface and Network Targeting; used for intrusion detection"
+        ],
+        "correct_answer": "b"
+      }
+    ]
+  },
+  "3": 
+    "lesson": "3",
+    "questions": [
+      {
+        "question": "What are appropriate sources for network monitoring to analyze network traffic?",
+        "options": [
+          "a) Social media platforms",
+          "b) VPN servers",
+          "c) Flow endpoints for traffic analysis and packet capture sniffers",
+          "d) DNS host names"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "How can threat intelligence be used for correlation in network monitoring?",
+        "options": [
+          "a) Blocking all IP addresses and DNS host names",
+          "b) Correlating irrelevant data",
+          "c) Identifying IP addresses and DNS host names with bad reputations",
+          "d) Deleting all log data"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What technique can be used to identify suspicious URL usage in network monitoring?",
+        "options": [
+          "a) Sniffing network traffic",
+          "b) Using manual analysis",
+          "c) Percent encoding",
+          "d) Capturing screenshots"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What type of data should be collected and normalized from firewalls, proxies, WAFs, and IDS/IPS for effective security monitoring?",
+        "options": [
+          "a) User authentication data",
+          "b) Hardware configuration details",
+          "c) Log data",
+          "d) Network diagram"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of creating baselines for known good processes on each type of host?",
+        "options": [
+          "a) Identifying phishing emails",
+          "b) Analyzing user behavior",
+          "c) Preventing network attacks",
+          "d) Identifying suspicious anomalous behavior"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can outbound firewall policies mitigate the threat from malware?",
+        "options": [
+          "a) Blocking all network traffic",
+          "b) Blocking incoming traffic only",
+          "c) Blocking all malware",
+          "d) Blocking malware using Command & Control (C&C) channels and data exfiltration"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What is the purpose of tuning rules and signatures for WAFs and IDS/IPS?",
+        "options": [
+          "a) Increasing network latency",
+          "b) Slowing down network traffic",
+          "c) Blocking all network traffic",
+          "d) Adapting to newly discovered threats"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can port security and NAC prevent unauthorized devices from connecting to the network?",
+        "options": [
+          "a) Disabling all network ports",
+          "b) Allowing unrestricted access for devices",
+          "c) Using firewalls only",
+          "d) Preventing rogue devices from connecting"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What is the purpose of configuring email domain authentication (SPF, DKIM, DMARC)?",
+        "options": [
+          "a) Blocking all incoming email",
+          "b) Slowing down email delivery",
+          "c) Ensuring outgoing email can be authenticated by recipients",
+          "d) Encrypting all email messages"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What service allows users to send confidential information by email?",
+        "options": [
+          "a) FTP",
+          "b) SMTP",
+          "c) HTTP",
+          "d) S/MIME (message encryption and digital signatures)"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  },
+  "4":{
+    "lesson": "4",
+    "questions": [
+      {
+        "question": "What are use cases for filtering and querying security data in a SIEM?",
+        "options": [
+          "a) Creating new user accounts",
+          "b) Analyzing weather patterns",
+          "c) Providing alerting about threats relevant to the organization",
+          "d) Monitoring network latency"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when configuring the SIEM or manual collection methods?",
+        "options": [
+          "a) Configuring new hardware devices",
+          "b) Changing network protocols",
+          "c) Normalizing security data and considering standard fields and date/time formats",
+          "d) Installing new operating systems"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of ensuring logs are stored within a secure architecture with appropriate access permissions and tamper protection?",
+        "options": [
+          "a) To maximize log storage",
+          "b) To encourage unauthorized access",
+          "c) To provide easy access to logs for all employees",
+          "d) To protect logs from unauthorized modification and access"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What do dashboards configured in a SIEM provide for analysts and department managers?",
+        "options": [
+          "a) Weather forecasts",
+          "b) Entertainment content",
+          "c) Status information for department managers and executives",
+          "d) Automated threat detection"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What methods are used for querying and filtering data to produce alerts in security analysis?",
+        "options": [
+          "a) Analyzing financial data",
+          "b) Creating new network protocols",
+          "c) Conditional, heuristic, behavioral, and anomaly-based methods",
+          "d) Designing new computer software"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What tools are used for manual analysis of security data?",
+        "options": [
+          "a) Social media platforms",
+          "b) Command-line tools like grep, cut, and sort",
+          "c) Machine learning algorithms",
+          "d) Physical security measures"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "What is the purpose of using scripts to automate detection functions not supported by a SIEM?",
+        "options": [
+          "a) Reducing network traffic",
+          "b) Increasing false positives",
+          "c) Monitoring network latency",
+          "d) Automating threat detection processes"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  },
+  "5":{
+    "lesson": "5",
+    "questions": [
+      {
+        "question": "What obligations should be addressed in documented procedures for forensics?",
+        "options": [
+          "a) Tracking employee attendance",
+          "b) Identifying network vulnerabilities",
+          "c) Legal hold, guidelines for working with external analysts, and work product retention",
+          "d) Setting up firewalls"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What resources should be provisioned for an internal analyst team to perform forensics?",
+        "options": [
+          "a) Paper and pens",
+          "b) High-capacity workstations without forensic software",
+          "c) Workstations with forensic tools for memory and file system analysis, file carving, and timeline reconstruction",
+          "d) Virtual reality headsets"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when creating documented procedures for evidence acquisition?",
+        "options": [
+          "a) Ignoring order of volatility",
+          "b) Using any available checksums",
+          "c) Paying attention to chain of custody, but not integrity checksums",
+          "d) Considering order of volatility, integrity checksums, and chain of custody"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What types of indicators should use cases and detection playbooks cover for network-related scenarios?",
+        "options": [
+          "a) Weather patterns",
+          "b) Network architecture",
+          "c) Bandwidth consumption, data exfiltration, and common protocols",
+          "d) Customer complaints"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What type of indicators should use cases and detection playbooks cover for host-related scenarios?",
+        "options": [
+          "a) Corporate meetings",
+          "b) User logins",
+          "c) Processor/memory/disk consumption, unauthorized privilege use, and file system changes",
+          "d) Software installation procedures"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What type of indicators should use cases and detection playbooks cover for application-related scenarios?",
+        "options": [
+          "a) Physical security measures",
+          "b) Employee attendance records",
+          "c) Anomalous activity, unexpected output, and service interruption",
+          "d) Inventory management"
+        ],
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "6": {
+    "lesson": "6",
+    "questions": [
+      {
+        "question": "What is the purpose of the preparation phase in incident response?",
+        "options": [
+          "a) Resolving incidents",
+          "b) Documenting network architecture",
+          "c) Developing resources and procedures for incident response",
+          "d) Creating communication plans"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What documents should be created to document incident response procedures?",
+        "options": [
+          "a) Employee schedules",
+          "b) Network diagrams",
+          "c) Incident response plan, call list, and incident form",
+          "d) Financial reports"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "When should incident criticality be elevated?",
+        "options": [
+          "a) When there are no security vulnerabilities",
+          "b) When sensitive data is not threatened",
+          "c) When confidential and private data is threatened",
+          "d) When physical security measures are in place"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should a communication plan include in incident response?",
+        "options": [
+          "a) Sharing incident details with the public",
+          "b) Encrypting all communications",
+          "c) Releasing incident details to trusted parties when appropriate, using secure channels",
+          "d) Keeping all communication internal"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of developing programs for training and testing in incident response?",
+        "options": [
+          "a) Increasing network traffic",
+          "b) Improving employee attendance",
+          "c) Proving the effectiveness of incident response processes",
+          "d) Automating all incident response procedures"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be included in documented courses of action, incident playbooks, and detection templates?",
+        "options": [
+          "a) Physical security measures",
+          "b) Weather forecasts",
+          "c) Impact analysis and criticality indicators",
+          "d) Customer complaints"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of establishing clear objectives and tools for containment in incident response?",
+        "options": [
+          "a) Increasing network traffic",
+          "b) Blocking all communications",
+          "c) Preventing future incidents",
+          "d) Applying isolation- or segmentation-based containment"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What tools are used for eradication and recovery in incident response?",
+        "options": [
+          "a) Social media platforms",
+          "b) Analyzing financial data",
+          "c) Sanitizing media and using images, templates, backup data, and configuration information",
+          "d) Employee attendance records"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of the post-incident phase in incident response?",
+        "options": [
+          "a) Preparing for incidents",
+          "b) Resolving incidents only",
+          "c) Evaluating and improving response procedures and resources",
+          "d) Ignoring incident details"
+        ],
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "7":{
+    "lesson": "7",
+    "questions": [
+      {
+        "question": "What is the purpose of establishing a risk management framework supported at the highest levels of the organization?",
+        "options": [
+          "a) Maximizing network traffic",
+          "b) Encouraging unauthorized access",
+          "c) Setting policies and procedures for risk assessment and monitoring",
+          "d) Ignoring compliance requirements"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of performing a systems assessment in the risk assessment process?",
+        "options": [
+          "a) Analyzing financial data",
+          "b) Documenting workflows and procedures",
+          "c) Developing new software",
+          "d) Blocking network traffic"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "How are risk assessment scenarios identified?",
+        "options": [
+          "a) Using random scenarios",
+          "b) Based on historical data only",
+          "c) Based on known and predicted threats and vulnerabilities",
+          "d) Ignoring known threats and vulnerabilities"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of prioritizing risk mitigation and selecting security controls?",
+        "options": [
+          "a) Increasing network latency",
+          "b) Encouraging unauthorized access",
+          "c) Accounting for engineering trade-offs and reducing security measures",
+          "d) Enhancing security while considering risk factors"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What is the purpose of developing training and testing programs in the risk assessment process?",
+        "options": [
+          "a) Blocking all network traffic",
+          "b) Encouraging unauthorized access",
+          "c) Proving the effectiveness of risk mitigation strategies",
+          "d) Ignoring risk factors"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of using internal assessments to monitor risk mitigation procedures?",
+        "options": [
+          "a) Encouraging unauthorized access",
+          "b) Blocking all network traffic",
+          "c) Validating and updating risk mitigation procedures",
+          "d) Ignoring risk factors"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when instituting a program of continuous monitoring?",
+        "options": [
+          "a) Ignoring risk factors",
+          "b) Blocking network traffic",
+          "c) Encouraging unauthorized access",
+          "d) Proactively responding to risks through continuous monitoring"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  },
+  "8": {
+    "lesson": "8",
+    "questions": [
+      {
+        "question": "What is the purpose of using enumeration tools like Nmap and hping in network security?",
+        "options": [
+          "a) Increasing network traffic",
+          "b) Validating wireless security",
+          "c) Monitoring network latency",
+          "d) Mapping network hosts and services"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What are wireless assessment tools such as Aircrack-ng, Reaver, and Hashcat used for?",
+        "options": [
+          "a) Mapping network hosts",
+          "b) Increasing network latency",
+          "c) Validating security mechanisms in wireless networks",
+          "d) Monitoring network traffic"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of defining policies and procedures/workflows for vulnerability scanning?",
+        "options": [
+          "a) Increasing network traffic",
+          "b) Automating wireless assessment",
+          "c) Reducing network attack surface",
+          "d) Validating security mechanisms"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "How should scanning options be identified for discrete scopes in vulnerability assessment?",
+        "options": [
+          "a) Using the same scan settings for all scopes",
+          "b) Ignoring compliance factors",
+          "c) Applying appropriate scan sensitivity and scheduling based on scope",
+          "d) Using random scan settings"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "When configuring agent-based or sensor-based scans, what should be taken into account?",
+        "options": [
+          "a) Avoiding all credentialed scans",
+          "b) Ignoring segmentation and security device issues",
+          "c) Risk to hosts and service availability from scanning activity",
+          "d) Using all scanning options available"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "Why should the assessment engine be updated regularly with vulnerability feed data?",
+        "options": [
+          "a) Maximizing network traffic",
+          "b) Avoiding vulnerability scans",
+          "c) Using outdated vulnerability data",
+          "d) Maintaining accuracy and relevance of scan results"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What is the purpose of analyzing vulnerability scan reports?",
+        "options": [
+          "a) Ignoring scan results",
+          "b) Prioritizing remediation actions based on CVSS metrics",
+          "c) Creating false positives and false negatives",
+          "d) Reducing network attack surface"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "What considerations should be taken into account when remediating findings from vulnerability scan reports?",
+        "options": [
+          "a) Ignoring remediation actions",
+          "b) Considering only organizational governance",
+          "c) Validating findings and considering inhibitors to remediation",
+          "d) Increasing the attack surface"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of using change control and configuration baselines in host hardening and patching?",
+        "options": [
+          "a) Ignoring host hardening and patching",
+          "b) Increasing network traffic",
+          "c) Maximizing network latency",
+          "d) Performing controlled and organized host improvements"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  },
+  "9": {
+    "lesson": "9",
+    "questions": [
+      {
+        "question": "What is the purpose of identity and access management procedures?",
+        "options": [
+          "a) Maximizing network traffic",
+          "b) Managing network architecture",
+          "c) Monitoring system performance",
+          "d) Managing accounts and privileges"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can audit logs be utilized in identity and access management?",
+        "options": [
+          "a) Ignoring audit logs",
+          "b) Enhancing system performance",
+          "c) Tuning audit logs to monitor account and privilege usage",
+          "d) Reducing network traffic"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of considering access control models like DAC, MAC, RBAC, and ABAC?",
+        "options": [
+          "a) Maximizing network traffic",
+          "b) Choosing a random access control model",
+          "c) Applying a suitable access control model for a given system",
+          "d) Increasing system complexity"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of using password policies and training in identity and access management?",
+        "options": [
+          "a) Ignoring password security",
+          "b) Increasing network traffic",
+          "c) Helping users manage passwords effectively",
+          "d) Bypassing authentication"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What technologies can be considered to enhance log-on security?",
+        "options": [
+          "a) Ignoring log-on security",
+          "b) Deploying only password policies",
+          "c) Using SSO, MFA, certificate-based authentication, and federation",
+          "d) Increasing network latency"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "How do code of conduct and acceptable use policies guide user behavior?",
+        "options": [
+          "a) Increasing network traffic",
+          "b) Monitoring system performance",
+          "c) Providing a basis for sanctioning noncompliant behavior",
+          "d) Enhancing network latency"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of having documented change management processes?",
+        "options": [
+          "a) Ignoring network changes",
+          "b) Maximizing network traffic",
+          "c) Ensuring network stability",
+          "d) Managing moves, adds, and changes to network assets"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What is the purpose of evaluating possible changes to network architecture following incidents?",
+        "options": [
+          "a) Ignoring network architecture",
+          "b) Enhancing network performance",
+          "c) Considering options for physical and logical segmentation and automation technologies",
+          "d) Reducing system complexity"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when adopting active defense tactics?",
+        "options": [
+          "a) Ignoring potential legal and reputational impacts",
+          "b) Maximizing network traffic",
+          "c) Applying all defense tactics at once",
+          "d) Resolving incidents without any consideration"
+        ],
+        "correct_answer": "a"
+      },
+      {
+        "question": "What is the purpose of supply chain assessment and using technologies to ensure a secure processing environment?",
+        "options": [
+          "a) Ignoring supply chain assessment",
+          "b) Maximizing network latency",
+          "c) Reducing system complexity",
+          "d) Ensuring a secure environment through supply chain assessment and hardware trust"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "Why is it important to develop policies, training, and tools to manage specialized systems?",
+        "options": [
+          "a) Ignoring specialized systems",
+          "b) Enhancing general system performance",
+          "c) Managing specialized systems including mobile, IoT, ICS/SCADA, and BAS/PACS",
+          "d) Increasing network traffic"
+        ],
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "10":{
+    "lesson": "10",
+    "questions": [
+      {
+        "question": "What's the first step in establishing data governance?",
+        "options": [
+          "a) Reviewing legal requirements",
+          "b) Developing encryption techniques",
+          "c) Creating access controls",
+          "d) Starting with data classification policies"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What's the purpose of roles in data governance?",
+        "options": [
+          "a) Ignoring role assignments",
+          "b) Focusing on data classification only",
+          "c) Representing data ownership and stewardship",
+          "d) Focusing solely on encryption"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What's reviewed in terms of legal requirements for data processing?",
+        "options": [
+          "a) Ignoring legal aspects",
+          "b) Developing encryption techniques",
+          "c) Reviewing data collection methods",
+          "d) Purpose limitation and data minimization"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How is compliance with data policies enforced?",
+        "options": [
+          "a) Ignoring compliance",
+          "b) Applying encryption to all data",
+          "c) Using NDAs and Data Sharing Agreements",
+          "d) Encrypting data in motion only"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What's configured in data processing and storage systems to protect data?",
+        "options": [
+          "a) Data duplication",
+          "b) Encrypting all data",
+          "c) Increasing network traffic",
+          "d) Access controls and necessary encryption"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What can a DLP solution automate?",
+        "options": [
+          "a) Developing encryption techniques",
+          "b) Ignoring data discovery",
+          "c) Protecting data from internal threats",
+          "d) Discovering, classifying, and managing data assets"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What's the purpose of using a DRM or watermarking solution?",
+        "options": [
+          "a) Ignoring copyright protection",
+          "b) Developing data retention policies",
+          "c) Protecting data from external threats",
+          "d) Protecting copyright in digital assets"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  },
+  "11":{
+    "lesson": "11",
+    "questions": [
+      {
+        "question": "How should security development be incorporated into the SDLC?",
+        "options": [
+          "a) Ignore SDLC security",
+          "b) Prioritize rapid development",
+          "c) Follow secure coding practices",
+          "d) Focus on efficient deployment"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What types of vulnerabilities should be reviewed in code?",
+        "options": [
+          "a) Hardware issues",
+          "b) UI design flaws",
+          "c) Network weaknesses",
+          "d) Overflow and race conditions"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can code mitigate risks of remote code execution or data exposure?",
+        "options": [
+          "a) Omit error handling",
+          "b) Use robust error handling",
+          "c) Neglect risks",
+          "d) Eliminate error messages"
+        ],
+        "correct_answer": "b"
+      },
+      {
+        "question": "What development resources should be reviewed for security?",
+        "options": [
+          "a) Ignore all resources",
+          "b) Review design documents",
+          "c) Examine code, libraries",
+          "d) Focus on new code only"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "How can security assessments be incorporated into the deployment phase?",
+        "options": [
+          "a) Skip deployment security",
+          "b) Review platforms only",
+          "c) Integrate assessments into deployment",
+          "d) Concentrate on coding solely"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should best practice advice for specific deployment platforms cover?",
+        "options": [
+          "a) Focus on web apps",
+          "b) Ignore platforms",
+          "c) Cover all phases",
+          "d) Follow advice for various platforms"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can coding techniques mitigate risks from directory traversal, XSS, and SQL injection?",
+        "options": [
+          "a) Avoid user input",
+          "b) Use encryption",
+          "c) Implement input validation, output encoding, queries",
+          "d) Ignore input validation"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What risks should authentication best practices mitigate?",
+        "options": [
+          "a) Physical risks",
+          "b) Network threats",
+          "c) Performance risks",
+          "d) Password weakness, hijacking"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "How can risks from session management and XSRF be mitigated?",
+        "options": [
+          "a) Ignore session risks",
+          "b) Use non-predictable tokens",
+          "c) Rely on cryptography",
+          "d) Use cryptography, tokens, authorization"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What resources should be provisioned to validate app security?",
+        "options": [
+          "a) Ignore validation",
+          "b) Provide many resources",
+          "c) Include analysis, stress testers, scanners",
+          "d) Rely on code review solely"
+        ],
+        "correct_answer": "c"
+      }
+    ]
+  },
+  "12":{
+    "lesson": "12",
+    "questions": [
+      {
+        "question": "What should procurement policies identify in relation to cloud deployment?",
+        "options": [
+          "a) Ignore cloud deployment risks",
+          "b) Only consider public cloud deployment risks",
+          "c) Identify risks for various cloud deployment types and service models",
+          "d) Prioritize hybrid cloud deployment risks"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should be considered when deploying cloud solutions with a need for networking control?",
+        "options": [
+          "a) Ignore networking considerations",
+          "b) Prioritize public cloud solutions",
+          "c) Consider using a VPC for networking control",
+          "d) Rely solely on cloud provider's networking"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What should you consider when deploying security technologies in the cloud?",
+        "options": [
+          "a) Avoid cloud-hosted solutions",
+          "b) Use on-premises solutions exclusively",
+          "c) Consider using cloud-hosted solutions for security technologies",
+          "d) Only consider using cloud solutions for non-security technologies"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is the purpose of a CASB solution?",
+        "options": [
+          "a) Manage cloud-based servers",
+          "b) Secure cloud data centers",
+          "c) Monitor cloud network traffic only",
+          "d) Ensure secure connections to cloud services by employee devices"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What benefits can SOA, microservices, and serverless architectures offer?",
+        "options": [
+          "a) No benefits, just added complexity",
+          "b) Streamlined networking only",
+          "c) Improved security",
+          "d) Benefits of flexibility and scalability"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What should be included in a management plan for cloud services?",
+        "options": [
+          "a) Only deployment strategies",
+          "b) Consideration for cloud provider responsibilities",
+          "c) Mitigation strategies for improper API usage only",
+          "d) Mitigation strategies for various risks including insecure API usage and unprotected storage"
+        ],
+        "correct_answer": "d"
+      },
+      {
+        "question": "What can vulnerability assessment tools like ScoutSuite and Prowler be used for?",
+        "options": [
+          "a) Test cloud infrastructure's user interface",
+          "b) Test network connectivity only",
+          "c) Perform automated testing of cloud infrastructure settings and configuration",
+          "d) Test cloud service uptime"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What issues related to incident response and forensics investigation should be considered for cloud deployments?",
+        "options": [
+          "a) Ignore these issues in cloud environments",
+          "b) Focus solely on access control",
+          "c) Consider ephemeral instances and access to evidence",
+          "d) Consider only traditional evidence handling methods"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is DevSecOps in relation to IT operations?",
+        "options": [
+          "a) A programming language",
+          "b) An Agile methodology",
+          "c) Applying Agile continuous integration/delivery/deployment principles to IT operations",
+          "d) Focusing solely on development practices"
+        ],
+        "correct_answer": "c"
+      },
+      {
+        "question": "What is a potential application of machine learning in security analysis?",
+        "options": [
+          "a) Solely for improving network performance",
+          "b) Only for automating malware detection",
+          "c) Only for enhancing compliance",
+          "d) Improving security analysis capability through data enrichment, threat feed combination, and more"
+        ],
+        "correct_answer": "d"
+      }
+    ]
+  }
 }
 
 
