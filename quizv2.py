@@ -38,9 +38,15 @@ def present_quiz_session(quiz_session):
         for choice, option in choices.items():
             print(f"{choice}: {option}")
 
-        user_answer = input("Your answer: ")
+          while True:
+            user_answer = input("Your answer: ").strip().lower()
 
-        if user_answer.lower() == question["answer"]:
+            if user_answer in choices:
+                break
+            else:
+                print("Invalid choice. Please choose a valid option.\n")
+
+        if user_answer == question["answer"]:
             print("Correct!\n")
         else:
             print(f"Wrong! The correct answer is {question['answer']}\n")
